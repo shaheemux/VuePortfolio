@@ -7,9 +7,11 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <router-link to="/" class="nav-link active" aria-current="page">Home</router-link>
-        <router-link to="" class="nav-link" href="#"></router-link>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <router-link to="/about" class="nav-link">About</router-link>
+        <router-link to="" class="nav-link">Skills</router-link>
+        <router-link to="" class="nav-link">Projects</router-link>
+        <router-link to="" class="nav-link">Testimonials</router-link>
+        <router-link to="" class="nav-link">Contact</router-link>  
       </div>
     </div>
   </div>
