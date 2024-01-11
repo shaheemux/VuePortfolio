@@ -6,14 +6,6 @@
 
 <script>
 export default {
-    computed:{
-        fetchDataResume(){
-            this.$store.dispatch('fetchDataResume')
-        }
-    },
-    mounted(){
-        this.fetchDataResume
-    }
 }
 </script>
 
