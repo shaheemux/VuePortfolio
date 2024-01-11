@@ -47,7 +47,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+.bg-white{
+  box-shadow: 4px 8px 10px black;
+}
 
 
 </style>

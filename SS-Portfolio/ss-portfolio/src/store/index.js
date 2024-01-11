@@ -33,6 +33,17 @@ export default createStore({
         });
     },
 
+    fetchDataProjects(context) {
+      axios.get("")
+        .then((a) => {
+          console.log(a.data[0]);
+          context.commit("setProjects", a.data[0])
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    },
+
   },
   modules: {
     
