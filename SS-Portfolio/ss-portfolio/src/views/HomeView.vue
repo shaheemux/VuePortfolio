@@ -1,9 +1,12 @@
 <template>
-  <section id="home">
-    <div class="title">
-      <h2 class="text">Aspiring Front-End Developer</h2>
+<div id="home">
+     <div class="container">
+      <div class="upper">SHAHEEM SALIE</div>
+      <div class="lower">SHAHEEM SALIE</div>
+      <div class="inside">ASPIRING FRONTEND DEVELOPER</div>
     </div>
-  </section>
+</div> 
+  
 </template>
 
 <script>
@@ -13,67 +16,115 @@ export default {
 </script>
 
 <style scoped>
-
-.title{
-    border: solid 1px black;
-    padding: 1rem;
-    text-align: left;
-    position: relative;
-    top: 100px;
-    font-family: 'Vina Sans', sans-serif;
-    font-size: 6rem;
-    color: white;
-    letter-spacing: 4px;
-    text-shadow: 3px 8px 10px black;
+*,
+:before,
+:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.text{
-    border: solid black 1px;
-}
-#home{
-    background-image: linear-gradient(rgb(194, 194, 191), rgb(124, 110, 124));
-    height: 100vh;
-    margin-top: 4.5rem;
-}
-
-@media (max-width: 1080px) {
-    .title {
-        font-size: 5rem; /* Adjust font size and other styles as needed */
-    }
+ #home{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
 }
 
-@media (max-width: 720px) {
-    .title {
-        font-size: 4rem; /* Adjust font size and other styles as needed */
-    }
+.container {
+  width: 9.25em;
+  height: 1.15em;
+  font-size: 4rem;
+  font-family: sans-serif;
+  position: relative;
 }
 
-@media (max-width: 650px) {
-    .title {
-        font-size: 3.5rem; /* Adjust font size and other styles as needed */
-    }
+.container div {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: absolute;
+  left: 0;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  text-align: center;
 }
 
-@media (max-width: 480px) {
-    .title {
-        font-size: 3rem; /* Adjust font size and other styles as needed */
-        top: 50px; /* Adjust position as needed */
-    }
+.upper {
+  top: 0;
+  height: 52.5%;
+  color: #fff;
+  overflow: hidden;
+  z-index: 3;
+  animation: moveUp 1.5s ease-in-out 1;
+  background-color: #121212;
+}
+
+.lower {
+  bottom: 0;
+  height: 100%;
+  background: linear-gradient(180deg, #121212 52.5%, #fff 52.5%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  z-index: 1;
+  animation: moveDown 1.5s ease-in-out 1;
+}
+
+.inside {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  text-align: center;
+  z-index: 2;
+  font-size: 1rem;
+  color: #ff0033;
+  
+}
+
+@keyframes moveUp {
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50%,
+  70% {
+    top: -45px;
+  }
+}
+
+@keyframes moveDown {
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50%,
+  70% {
+    top: 30px;
+  }
+}
+
+@media (max-width: 424px) {
+  .container {
+    font-size: 2.5rem;
+  }
+
+  .inside {
+    font-size: 0.75rem;
+  }
 }
 
 @media (max-width: 320px) {
-    .title {
-        font-size: 2.5rem; /* Adjust font size and other styles as needed */
-        top: 20px; /* Adjust position as needed */
-    }
-}
+  .container {
+    font-size: 2rem;
+  }
 
-@media (max-width: 280px) {
-    .title {
-        font-size: 2rem; /* Adjust font size and other styles as needed */
-        top: 10px; /* Adjust position as needed */
-        padding: 0.5rem; /* Adjust padding as needed */
-    }
+  .inside {
+    font-size: 0.5rem;
+  }
 }
 
 

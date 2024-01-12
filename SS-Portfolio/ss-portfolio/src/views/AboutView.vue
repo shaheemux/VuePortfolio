@@ -16,6 +16,7 @@ IT Technician assistant until my contract ended. </p>
     </div>
 
     <div class="container">
+      <h1 id="article3">My Professions</h1>
     <div class="placeholder">
         <div class="card1" id="text"></div>
         <div class="card2" id="text"></div>
@@ -23,10 +24,10 @@ IT Technician assistant until my contract ended. </p>
         <div class="card4" id="text"></div>
         <div class="card5" id="text"></div>
         <div class="card6" id="text"></div>
-        <div class="card7" id="text">UI UX</div>
-        <div class="card8" id="text">Graphic Design</div>
-        <div class="card8" id="text">Video Editing</div>
-        <div class="card7" id="text">IT</div>    
+        <div class="card7" id="text"></div>
+        <div class="card8" id="text"></div>
+        <div class="card9" id="text"></div>
+        <div class="card10" id="text"></div>    
     </div>
 </div>
 
@@ -49,10 +50,22 @@ export default {
   border: solid 1px black;
 }
 .intro{
+  background-color: white;
   padding: 1rem;
   border: solid black 1px;
   color: rgb(37, 37, 37);
+
 }
+#article3{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+
+
+
 p{
   padding: 1rem;
 }
@@ -60,7 +73,6 @@ p{
 /* cards */
 
 .container{
-    border: solid black;
     padding: 2rem;
     display: flex;
     margin-TOP: 1rem;
@@ -71,7 +83,6 @@ p{
 }
 .placeholder{
     width: 100%;
-    border: solid 1px black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -80,6 +91,12 @@ p{
 }
 
 /* HTML CARD */
+
+#text{
+  text-align: center;
+  position: relative;
+
+}
 
 
 .card1{
@@ -176,21 +193,65 @@ p{
     background-color: rgb(8, 158, 108);
     transform: scale(1.05);
 }
+
 .card7{
   border: solid 1px black;
-  height: 180px;
-  width: 180px;
+  height: 200px;
+  width: 200px;
+  transition: 0.5s ease-in-out;
+  text-align: center;
+  background-image: url(https://cdn-thumbs.imagevenue.com/68/7a/43/ME17GOFD_t.png);
+  padding: 1rem;
 }
+
+.card7:hover{
+    transition: 0.5s;   
+    transform: scale(1.05);
+    box-shadow: 5px 6px 15px 10px;
+ 
+}
+
 .card8{
   border: solid 1px black;
   height: 180px;
   width: 180px;
+  text-align: center;
+  background-image: url(https://cdn-thumbs.imagevenue.com/cb/ff/26/ME17GOFJ_t.png);
 }
 
+.card8:hover{
+    transition: 0.5s;   
+    box-shadow: 5px 6px 15px 10px;
+    transform: scale(1.05);
+}
 .card9{
   border: solid 1px black;
   height: 180px;
   width: 180px;
+  text-align: center;
+  background-image: url(https://cdn-thumbs.imagevenue.com/55/14/47/ME17GOFM_t.png);
+
+}
+
+.card9:hover{
+    transition: 0.5s;   
+    transform: scale(1.05);
+    box-shadow: 5px 6px 15px 10px;
+}
+
+.card10{
+  border: solid 1px black;
+  height: 180px;
+  width: 200px;
+  text-align: center;
+  background-image: url(https://cdn-thumbs.imagevenue.com/6e/e9/09/ME17GOFN_t.png);
+
+}
+
+.card10:hover{
+    transition: 0.5s;   
+    transform: scale(1.05);
+    box-shadow: 5px 6px 15px 10px;
 }
 
 @media (max-width: 1330px){
@@ -219,7 +280,7 @@ p{
 
 @media (max-width: 780px) {
     .placeholder{
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr ;
     }
   }
 @media (max-width: 500px) {
