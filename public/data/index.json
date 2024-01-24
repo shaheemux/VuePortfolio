@@ -1,0 +1,23 @@
+{
+    "fields": [
+      {
+        "name": "fullName",
+        "type": "text",
+        "placeholder": "Full Name",
+        "value": ""
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "placeholder": "Email Address",
+        "value": ""
+      },
+      {
+        "name": "message",
+        "type": "textarea",
+        "placeholder": "Your Message",
+        "value": ""
+      }
+    ]
+  }
+  
