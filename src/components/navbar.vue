@@ -38,6 +38,7 @@
      
   }
   .nav-link{
+    
     color: white !important;
   }
   
