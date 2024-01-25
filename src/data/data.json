@@ -1,0 +1,42 @@
+{
+    "testimonials": [
+       {
+          "id": 1,
+          "name": "Fagan Muller",
+          "image": "https://cdn-thumbs.imagevenue.com/c1/22/e3/ME17JD5A_t.jpg",
+          "testimonial": "I had a great experience with their services."
+       },
+       {
+          "id": 2,
+          "name": "Excellent support!",
+          "image": "https://cdn-thumbs.imagevenue.com/c1/22/e3/ME17JD5A_t.jpg",
+          "testimonial": "Their support team was very helpful."
+       },
+       {
+        "id": 3,
+        "name": "Excellent support!",
+        "image": "https://cdn-thumbs.imagevenue.com/c1/22/e3/ME17JD5A_t.jpg",
+        "testimonial": "Their support team was very helpful."
+       },
+       {
+        "id": 4,
+        "name": "Excellent support!",
+        "image": "https://cdn-thumbs.imagevenue.com/c1/22/e3/ME17JD5A_t.jpg",
+        "testimonial": "Their support team was very helpful."
+       },
+       {
+        "id": 5,
+        "name": "Excellent support!",
+        "image": "https://cdn-thumbs.imagevenue.com/c1/22/e3/ME17JD5A_t.jpg",
+        "testimonial": "Their support team was very helpful."
+       },
+       {
+        "id": 6,
+        "name": "Excellent support!",
+        "image": "https://cdn-thumbs.imagevenue.com/c1/22/e3/ME17JD5A_t.jpg",
+        "testimonial": "Their support team was very helpful."
+       }
+
+    ]
+   }
+   

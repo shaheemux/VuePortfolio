@@ -1,4 +1,7 @@
 <template>
+    <div id="Resume">
+
+    </div>
   
 </template>
 
@@ -8,6 +11,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+ #Resume{
+    height: 100vh;
+ }
 
 </style>

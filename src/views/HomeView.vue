@@ -17,6 +17,9 @@
   
   <style scoped>
  
+ *{
+  z-index: .1;
+ }
  .home{
     background: #282c34;
     font-size: 2vmin;
@@ -28,6 +31,7 @@
     align-items: center;
     color: #e4bb68;
   }
+
 
   .string {
     display: flex;
