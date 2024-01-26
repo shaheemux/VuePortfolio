@@ -1,15 +1,13 @@
+
 <template>
-    <div id="testimonials" class="grid">
+    <div id="testimonials" >
        <div v-for="testimonial in testimonials" :key="testimonial.id" class="card">
-         <img :src="testimonial.image" alt="Testimonial image">
+         <!-- <img :src="testimonial.image" alt="Testimonial image"> -->
          <h3>{{ testimonial.name }}</h3>
          <p>{{ testimonial.testimonial }}</p>
        </div>
     </div>
-    <div id="testimonials">
-
-    </div>
-   </template>
+</template>
    
    <script>
    import { mapState } from 'vuex';
@@ -24,32 +22,36 @@
    };
    </script>
    
-   <style scoped>
+<style scoped>
 
-#testimonials {
-    height: 200vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 1rem;
-    gap: 15px
-}
+ #testimonials{
+    height: 100svh;
+ }
 
-img{
-    clip-path: circle(50%);
-    
-}
+    /* #testimonials {
+        height: 200vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        gap: 15px
+    }
 
-.card {
-    height: 450px;
-    border: 1px solid #ccc;
-    padding: 1rem;
-    text-align: center;
-    transition: 0.5s ease-in-out !important;
-}
+    img{
+        clip-path: circle(50%);
+        
+    }
 
-.card:hover{
-    transform: scale(1.05);
-}
+    .card {
+        height: 450px;
+        border: 1px solid #ccc;
+        padding: 1rem;
+        text-align: center;
+        transition: 0.5s ease-in-out !important;
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+    } */
 
 
 </style>

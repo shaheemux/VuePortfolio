@@ -14,7 +14,7 @@ export default createStore({
  },
  actions: {
       async fetchTestimonials({ commit }) {
-        const response = await fetch('http://localhost:3000/testimonials ');
+        const response = await fetch('http://localhost:3000/testimonials');
         const testimonials = await response.json();
         commit('SET_TESTIMONIALS', testimonials);
       }  
