@@ -1,99 +1,145 @@
 <template>
-  <div class="home">
-    <h1>System<span style="color:white;">.<span style="color:#e06c75;">out</span>.</span><span style="color:#61afef;">println</span>("</h1>
-<div class="string">
-  <!-- <h1 class="greeting en"></h1> -->
-  <h1 class="greeting es">,Aspiring!</h1>
-  <h1 class="greeting de">Front-end</h1>
-  <h1 class="greeting it">developer!</h1>  
-</div>
-<h1 class="closure">");</h1>
+    <main class="home">
+      <h1 class="title">Aspiring Front-End Developer</h1>
+      <button class="BTN">Lets Connect Socially</button>
+    </main>    
+</template>
+  
+ 
+  
+<style scoped>
 
-    
-</div>    
-    
-  </template>
-  
- 
-  
-  <style scoped>
- 
- *{
-  z-index: .1;
+.home{
+  height: 100vh;
+  background: #282c34;
+  margin-top: 4.6rem;
+  display: grid;
+}
+.title{
+  color: white;
+  /* border: solid white; */
+  font-family: 'Londrina Shadow', sans-serif;
+  font-size: 5em;
+  margin: auto;
+  padding: 1rem;
+}
+
+.BTN{
+  height: 60px;
+  width: 210px;
+  margin: auto;
+  position: relative;
+  bottom: 15rem;
+  background: transparent;
+  border-radius: 4px;
+  transition: 0.5s ease-in-out;
+  color: white;
+}
+
+.BTN:hover{
+  background-color: azure;
+  transition: 0.5s;
+  transform: scale(1.05);
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+  color: black;
+}
+
+@media screen and (max-width: 300px) {
+ .BTN{
+    height: 50px; 
+    width: 150px; 
+    font-size: 0.8em; 
  }
- .home{
-    background: #282c34;
-    font-size: 2vmin;
-    font-family: JetBrains Mono, monospace;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #e4bb68;
-  }
+}
+
+@media screen and (min-width: 301px) and (max-width: 720px) {
+ .BTN{
+    height: 60px;
+    width: 200px; 
+    font-size: 1em; 
+ }
+}
+
+@media screen and (min-width: 721px) and (max-width: 992px) {
+ .BTN{
+    height: 70px; 
+    width: 250px; 
+    font-size: 1.2em; 
+ }
+}
+
+@media screen and (min-width: 993px) {
+ .BTN{
+    height: 80px; 
+    width: 300px; 
+    font-size: 1.4em;
+ }
+}
+
+@media screen and (max-width: 300px) {
+ .title{
+    font-size: 2em; 
+ }
+}
+
+@media screen and (min-width: 301px) and (max-width: 720px) {
+ .title{
+    font-size: 3em; 
+ }
+}
+
+@media screen and (min-width: 721px) and (max-width: 992px) {
+ .title{
+    font-size: 4em;
+ }
+}
+
+@media screen and (min-width: 993px) {
+ .title{
+    font-size: 5em; 
+ }
+}
+
+@media screen and (max-width: 300px) {
+ .BTN{
+    height: 40px; /* Adjust this value as needed */
+    width: 150px; /* Adjust this value as needed */
+    bottom: 10rem; /* Adjust this value as needed */
+ }
+}
+
+@media screen and (min-width: 301px) and (max-width: 720px) {
+ .BTN{
+    height: 50px; /* Adjust this value as needed */
+    width: 200px; /* Adjust this value as needed */
+    bottom: 12rem; /* Adjust this value as needed */
+ }
+}
+
+@media screen and (min-width: 721px) and (max-width: 992px) {
+ .BTN{
+    height: 60px; /* Adjust this value as needed */
+    width: 250px; /* Adjust this value as needed */
+    bottom: 14rem; /* Adjust this value as needed */
+ }
+}
+
+@media screen and (min-width: 993px) {
+ .BTN{
+    height: 70px; 
+    width: 300px; 
+    bottom: 16rem; 
+ }
+}
+
+@media screen and (max-width: 320px) {
+ .BTN{
+    height: 40px; 
+    width: 150px; 
+    bottom: 10rem; 
+ }
+}
 
 
-  .string {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    animation: move 4s infinite;
-  }
-  
-  .greeting {
-    position: relative;
-    top: 8.6vmin;
-    animation: white-out 5s infinite;
-  }
-  
-  .closure::after {
-    content: '';
-    position: absolute;
-    height: 25vmin;
-    width: 40vmin;
-    background: #282c34;
-    transform: translate(-45vmin, -24.5vmin);
-  }
-  
-  .closure::before {
-    content: '';
-    position: absolute;
-    height: 25vmin;
-    width: 40vmin;
-    background: #282c34;
-    transform: translate(-40vmin, 5vmin);
-  }
-  
-  /* .en {
-    color: #fa8231;
-  }
-   */
-  .es {
-    color: white;
-  }
-  
-  .de {
-    color: #c678dd;
-  }
-  
-  .it {
-    color: #a9b0bd;
-  }
-  
-  @keyframes move {
-    25% {
-      transform: translatey(-5.8vmin);
-      opacity: 1;
-    }
-    50% {
-      transform: translatey(-11vmin);
-    }
-    75% {
-      transform: translatey(-21.5vmin);
-    }
-  }
-
-   
-  </style>
+</style>
   

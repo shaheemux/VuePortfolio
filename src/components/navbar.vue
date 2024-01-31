@@ -1,15 +1,22 @@
 <template>
-  <div id="navbar">   
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
-    <div class="container-fluid">
-      <!-- <h3 style="color: #fa8231;;   font-family: JetBrains Mono, monospace;">Shaheem<span style="  color:#c678dd;"><span style="color: rgb(214, 39, 39);">.</span>("Salie")</span></h3> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+  <div id="navbar">
+    <nav class="navbar bg-light fixed-top">
+  <div class="container-fluid">
+    <router-link to="/" class="navbar-brand">Shaheem Salie</router-link>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+          <img src="" alt="">
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <router-link to="/" class="nav-link active" aria-current="page" href="#">Home</router-link>
+            <router-link to="/" class="nav-link active" aria-current="page">Home</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/about" class="nav-link">About</router-link>
@@ -29,10 +36,10 @@
         </ul>
       </div>
     </div>
-  </nav>
   </div>
-  
-  </template>
+</nav>   
+  </div> 
+</template>
   
   <script>
   export default {
@@ -41,9 +48,21 @@
   </script>
   
   <style scoped>
-   
+    
+    .navbar-brand{
+      color: white;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 2em;
+    }
   .navbar{
     background-color: #393d46 !important;     
+  }
+  .offcanvas-header{
+   background-image: url(https://cdn-thumbs.imagevenue.com/0d/43/60/ME17K5PL_t.jpg);
+   color: white;
+  }
+  .offcanvas-body{
+    background-image: url(https://cdn-thumbs.imagevenue.com/0d/43/60/ME17K5PL_t.jpg);  
   }
   .navbarNav{   
     text-align: center !important;

@@ -1,11 +1,14 @@
 <template>
   <section class="about">
     <div class="intro">
-      <p>My name is Shaheem Salie, I was born and raised in Mitchells Plain, Tafelsig.
-I am 24 years old and I completed matric in 2018. </p>
+      <h3 style="text-decoration: underline; color: aliceblue;">About Myself</h3>
+      <p>My name is Moeghamat Shaheem Salie but Shaheem Salie for short . I am 25 years old and I was born and raised in Mitchells Plain Tafelsig . I Graduated high-school in 2018 . I am very passionate about the tech industry and love up-skillng myself within this field everyday .  I am detail orientated with a "can do spirit". In my free time I always make sure to keep up with what's trending , video editing , graphic designing or just drawing  . With zero coding experience I joined Life Choices academy coding Bootcamp and became very passionate about it started making life choices of my very own.</p>
+
     </div>
 
+
     <div class="aside">
+      <h3 style="color: aliceblue; text-decoration: underline;">My Skills</h3>
     <div class="content">
         <div class="card1" id="text"></div>
         <div class="card2" id="text"></div>
@@ -22,6 +25,7 @@ I am 24 years old and I completed matric in 2018. </p>
 <style scoped>
 .about{
   min-height: 100vh;
+  margin-top: 4.6rem;
   color: #fa8231;
   font-weight: bold;
   font-family: JetBrains Mono, monospace;
@@ -33,6 +37,74 @@ I am 24 years old and I completed matric in 2018. </p>
 
 p{
   padding: 1rem;
+}
+
+@media screen and (max-width: 300px) {
+ .about{
+    min-height: 100vh;
+    margin-top: 4.6rem;
+    color: #fa8231;
+    font-weight: bold;
+    font-family: JetBrains Mono, monospace;
+ }
+ .intro{
+    padding: 1rem;
+    width: 100%; /* Adjust this value as needed */
+ }
+ p{
+    padding: 1rem;
+ }
+}
+
+@media screen and (min-width: 301px) and (max-width: 720px) {
+ .about{
+    min-height: 100vh;
+    margin-top: 4.6rem;
+    color: #fa8231;
+    font-weight: bold;
+    font-family: JetBrains Mono, monospace;
+ }
+ .intro{
+    padding: 1rem;
+    width: 70%;
+ }
+ p{
+    padding: 1rem;
+ }
+}
+
+@media screen and (min-width: 721px) and (max-width: 992px) {
+ .about{
+    min-height: 100vh;
+    margin-top: 4.6rem;
+    color: #fa8231;
+    font-weight: bold;
+    font-family: JetBrains Mono, monospace;
+ }
+ .intro{
+    padding: 1rem;
+    width: 90%; /* Adjust this value as needed */
+ }
+ p{
+    padding: 1rem;
+ }
+}
+
+@media screen and (min-width: 993px) {
+ .about{
+    min-height: 100vh;
+    margin-top: 4.6rem;
+    color: #fa8231;
+    font-weight: bold;
+    font-family: JetBrains Mono, monospace;
+ }
+ .intro{
+    padding: 1rem;
+    width: 50%;
+ }
+ p{
+    padding: 1rem;
+ }
 }
 
 
