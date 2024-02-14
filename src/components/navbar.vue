@@ -50,12 +50,12 @@
   <style scoped>
     
     .navbar-brand{
-      color: white;
+      color: rgb(0, 0, 0);
       font-family: 'Roboto Mono', monospace;
       font-size: 2em;
     }
   .navbar{
-    background-color: #393d46 !important;     
+    background-color: #ffffff !important;     
   }
   .offcanvas-header{
    background-image: url(https://cdn-thumbs.imagevenue.com/0d/43/60/ME17K5PL_t.jpg);

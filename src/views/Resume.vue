@@ -1,41 +1,40 @@
 <template>
     <div id="Resume">
         <div class="aside">
-      <h3 style="color: aliceblue; text-decoration: underline;">My Resume</h3>
+      <h3 style="color: rgb(0, 0, 0); text-decoration: underline;">My Resume</h3>
     <div class="content">
         <div class="card1" id="text">
-            <h2 style="color: aliceblue;">2018</h2>
-            <p style="color: aliceblue; padding: 1rem;">Gratuated High School , started working right after school for a year. </p>
+            <h2 style="color: rgb(0, 0, 0);">2018</h2>
+            <p style="color: rgb(0, 0, 0); padding: 1rem;">Gratuated High School , started working right after school for a year. </p>
+ 
         </div>
         <div class="card2" id="text">
-            <h2 style="color: aliceblue;">2019</h2>
-            <p style="padding: 1rem; color: white;">Worked as a Driver and Driver Assistant for one year straight.</p>
+            <h2 style="color: rgb(0, 0, 0);">2019</h2>
+            <p style="padding: 1rem; color: rgb(0, 0, 0);">Worked as a Driver and Driver Assistant for one year straight.</p>
         </div>
         <div class="card3" id="text">
-            <h3 style="color: aliceblue;">2020</h3>
-            <p style="color: white; padding: 1rem;">i started becoming very passionate about the tech industry then applied for a IT Course.</p>
+            <h3 style="color: rgb(0, 0, 0);">2020</h3>
+            <p style="color: rgb(0, 0, 0); padding: 1rem;">i started becoming very passionate about the tech industry then applied for a IT Course.</p>
         </div>
         <div class="card4" id="text">
-            <h3 style="color: aliceblue;">2021</h3>
-            <p style="color: aliceblue; padding: 1rem;">I applied for an intership but didnt make it . i then offered to work for free and eventually got the job.</p>
+            <h3 style="color: rgb(0, 0, 0);">2021</h3>
+            <p style="color: rgb(0, 0, 0); padding: 1rem;">I applied for an intership but didnt make it . i then offered to work for free and eventually got the job.</p>
 
         </div>
         <div class="card5" id="text">
-            <h3 style="color: aliceblue;">2022</h3>
-            <p style="color: aliceblue; padding: 1rem;">My internship ended and i was uemployed but still upskilling myself while making money off from my hobby.</p>
+            <h3 style="color: rgb(0, 0, 0);">2022</h3>
+            <p style="color: rgb(0, 0, 0); padding: 1rem;">My internship ended and i was uemployed but still upskilling myself while making money off from my hobby.</p>
         </div>
         <div class="card6" id="text">
-            <h3 style="color: aliceblue;">2023</h3>
-            <p style="padding: 1rem; color: aliceblue;">Went Back to being a driver until i applied for Life Choices Coding Bootcamp.</p>
+            <h3 style="color: rgb(0, 0, 0);">2023</h3>
+            <p style="padding: 1rem; color: rgb(0, 0, 0);">Went Back to being a driver until i applied for Life Choices Coding Bootcamp.</p>
         </div>  
       </div>
     </div>
 
     <section>
         <h3 style="color: aliceblue; text-decoration: underline;">My OverAll Objective</h3>
-
-
-        
+         
     </section>
 
 

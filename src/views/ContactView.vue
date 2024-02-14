@@ -33,29 +33,29 @@
           </form>
       </div>
     </div> 
-    </section>
-
-
-    </div>
+       </section>
+     </div>
 
 </template>
 
 <style scoped>
 .contact{
     background: #282c34;
-    height: 250vh;
+    height: 100vh;
     margin-top: 4.6rem;
     font-family: JetBrains Mono, monospace;
+    border: solid red;
 }
 
 #Contact{
+    height: 100vh;
     font-size: cincel;
+    border: solid rgb(0, 0, 0);
 
 
 }
 .hero{
     width: 100%;
-    height: 100vh;
     background-position: center;
     background-size: cover;
     display: flex;
