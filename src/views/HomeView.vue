@@ -1,7 +1,6 @@
 <template>
     <main class="home">
       <h1 class="title">Aspiring Front-End Developer</h1>
-      <button class="BTN">Lets Connect Socially</button>
     </main>    
 </template>
   
