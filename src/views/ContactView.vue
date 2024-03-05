@@ -3,7 +3,6 @@
 
         <section id="Contact">
       <div class="container3">
-        <h3 style="padding: 1rem; color: white; text-decoration: underline; position: relative; top: 8rem;">Contact Me</h3>
         <div class="hero">
           
           <form>
@@ -40,19 +39,15 @@
 
 <style scoped>
 .contact{
-    background: #282c34;
-    height: 100vh;
-    margin-top: 4.6rem;
+    background: black;
+    height: 100lvh;
+    margin-top: 3rem;
     font-family: JetBrains Mono, monospace;
-    border: solid red;
 }
 
 #Contact{
     height: 100vh;
     font-size: cincel;
-    border: solid rgb(0, 0, 0);
-
-
 }
 .hero{
     width: 100%;
@@ -61,6 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: .3;
 }
 form{
     width: 90%;

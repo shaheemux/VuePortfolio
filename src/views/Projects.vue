@@ -36,17 +36,21 @@
 </template>
 
 <style scoped>
+
 .projects{
-    background: #282c34;
+    border-top: solid 1px;
     height: 130vh;
     margin-top: 4.6rem;
     font-family: JetBrains Mono, monospace;
+}
+h3 , a{
+  color: black !important;
 }
 
 button{
   background: transparent;
   padding: 1rem;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   border: solid black 1px;
   transition: 0.5s ease-in-out;
 }

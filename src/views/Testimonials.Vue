@@ -1,4 +1,3 @@
-
 <template>
     <div id="testimonials">
         <div class="aside">
@@ -13,8 +12,8 @@
         <div class="card2" id="text">
             <img src="https://cdn-thumbs.imagevenue.com/61/1b/0b/ME17K711_t.jpeg" height="120px" style="padding: 1rem;" alt="">
             <h2 style="color: rgb(0, 0, 0); text-decoration: underline">Ricky Matthews</h2>
-            <p style="padding: 1rem; color: rgb(0, 0, 0);">I have had the pleasure of managing Shaheem for the past two years, and I can attest to their exceptional
-                     reliability and strong work ethic. Shaheem consistently demonstrates a high level of commitment to their work, 
+            <p style="padding: 0.5rem; color: rgb(0, 0, 0);">I have had the pleasure of managing Shaheem for the past two years, and I can attest to his exceptional
+                     reliability and strong work ethic. Shaheem consistently demonstrates a high level of commitment to his work and is a go to team player, 
                      always ensuring that tasks are completed efficiently and accurately.</p>
         </div>
         <div class="card3" id="text">
@@ -45,26 +44,17 @@
     </div>
 </template>
    
-   <!-- <script>
-   import { mapState } from 'vuex';
-   
-   export default {
-    computed: {
-       ...mapState(['testimonials'])
-    },
-    async created() {
-       await this.$store.dispatch('fetchTestimonials');
-    }
-   };
-   </script> -->
+
    
 <style scoped>
 
  #testimonials{
-    height: 250vh;
-    background: #dfc099 !important;
-    margin-top: 4.6rem;
+    height: 100dvh;
+    height: 100%;
+    border-top: solid 1px;
+    margin-top: 4.5rem;
     font-family: JetBrains Mono, monospace;
+    
  }
   
  img{

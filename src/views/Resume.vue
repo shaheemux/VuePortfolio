@@ -18,7 +18,7 @@
         </div>
         <div class="card4" id="text">
             <h3 style="color: rgb(0, 0, 0);">2021</h3>
-            <p style="color: rgb(0, 0, 0); padding: 1rem;">I applied for an intership but didnt make it . i then offered to work for free and eventually got the job.</p>
+            <p style="color: rgb(0, 0, 0); padding: 1rem;">I applied for an intership . i then offered to work for free and eventually got the job.</p>
 
         </div>
         <div class="card5" id="text">
@@ -42,18 +42,15 @@
   
 </template>
 
-<script>
-export default {
-
-}
-</script>
 
 <style scoped>
 
  #Resume{
-    height: 170vh;
-    margin-top: 4.6rem;
+    height: 100%;
     font-family: JetBrains Mono, monospace;
+    border: solid;
+    margin-top: 4rem;
+    
  }
 
  .aside{
