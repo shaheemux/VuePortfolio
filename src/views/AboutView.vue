@@ -1,13 +1,13 @@
 <template>
   <section class="about">
     <div class="intro">
-      <h3 style="text-decoration: underline; color: aliceblue; color: black;">About Myself</h3>
-      <p style="border: solid;">My name is Moeghamat Shaheem Salie but Shaheem Salie for short . I am 25 years old and I was born and raised in Mitchells Plain Tafelsig . I Graduated high-school in 2018 . I am very passionate about the tech industry and love up-skillng myself within this field everyday .  I am detail orientated with a "can do spirit". In my free time I always make sure to keep up with what's trending , video editing , graphic designing or just drawing  . With zero coding experience I joined Life Choices academy coding Bootcamp and became very passionate about it started making life choices of my very own.</p>
+      <h3 style="text-decoration: underline; color: aliceblue; color: black;">MyJourney</h3>
+      <p class="AboutMyself"><span style="font-size: 3rem;">MY</span> name is Moeghamat Shaheem Salie but Shaheem Salie for short . I am 25 years old and I was born and raised in Mitchells Plain Tafelsig . I Graduated high-school in 2018 . I am very passionate about the tech industry and love up-skillng myself within this field everyday .  I am detail orientated with a "can do spirit". In my free time I always make sure to keep up with what is trending , video editing , graphic designing or just drawing  . With zero coding experience I joined Life Choices academy coding Bootcamp and became very passionate about it started making life choices of my very own.</p>
     </div>
 
 
     <div class="aside">
-      <h3 style="color: aliceblue; text-decoration: underline;">Skills</h3>
+      <h3 style="color: black; text-decoration: underline;">Skills</h3>
     <div class="content">
         <div class="card1" id="text"></div>
         <div class="card2" id="text"></div>
@@ -28,41 +28,54 @@
 
 .about{
    border-top: solid 1px;
-   height: 100vh;
+   height: 100%;
    position: relative;
    top: 1rem;
 }
+
 
 .intro{
   margin-top: 1rem;
   color: black;
   display: grid;
   place-items: center;
+  container-type: inline-size;
+  font-family: amiko;
 }
 
 p{
   padding: 1rem;
+  width: 70%;
+  border: solid 1px;
+  font-family: amiko;
 }
+
+.AboutMyself > p {
+  font-size: max(1rem 19cql);
+}
+
 
 @media screen and (max-width: 300px) {
  .about{
     min-height: 100vh;
     font-weight: bold;
+    margin-top: 3rem;
  }
  .intro{
     padding: 1rem;
-    width: 100%; /* Adjust this value as needed */
+    width: 100%;
+    margin-top: 3rem;
  }
  p{
     padding: 1rem;
+
  }
 }
 
 @media screen and (min-width: 301px) and (max-width: 720px) {
  .about{
     min-height: 100vh;
-    font-weight: bold;
-    font-family: JetBrains Mono, monospace;
+    margin-top: 3rem;
  }
  .intro{
     padding: 1rem;
@@ -73,11 +86,36 @@ p{
  }
 }
 
+.AboutMyself {
+    font-size: 16px; /* Default font size */
+}
+
+@media (min-width: 721px) and (max-width: 992px) {
+    .AboutMyself {
+        font-size: 18px; 
+    }
+}
+
+
+@media (min-width: 301px) and (max-width: 720px) {
+    .AboutMyself {
+        font-size: 12px; 
+        width: 100%;
+    }
+}
+
+/* Styles for screens with a maximum width of 300px */
+@media (max-width: 300px) {
+    .AboutMyself {
+        font-size: 12px; 
+    }
+}
+
+
 @media screen and (min-width: 721px) and (max-width: 992px) {
  .about{
     min-height: 100vh;
-    margin-top: 3.5rem;
-    font-family: JetBrains Mono, monospace;
+    margin-top: 3rem;
  }
  .intro{
     padding: 1rem;
@@ -91,8 +129,6 @@ p{
  .about{
     min-height: 100vh;
     margin-top: 3rem;
-    font-weight: bold;
-    font-family: JetBrains Mono, monospace;
  }
  .intro{
     padding: 1rem;
@@ -132,6 +168,7 @@ p{
 } 
 
  .card1{
+    animation: fadeInDownBig 1s ease-out;
     border: solid 1px black;
     height: 180px;
     width: 180px;
@@ -145,6 +182,18 @@ p{
     background-color: rgb(241, 99, 5);
     transform: scale(1.05);
 }
+
+@keyframes fadeInDownBig {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -2000px, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+ }
 
 /* CSS CARD */
 
