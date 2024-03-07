@@ -306,13 +306,16 @@ p{
     border: solid 1px black;
     height: 180px;
     width: 180px;
+    background-image: url(https://cdn-thumbs.imagevenue.com/96/41/fd/ME17QREP_t.png);
+    background-repeat: no-repeat;
+    background-position: center;
     transition: 0.5s ease-in-out;
     padding: 1rem;
 }
 .card9:hover{
-    box-shadow: 5px 6px 15px 10px rgb(126, 227, 222);
+    box-shadow: 5px 6px 15px 10px rgb(250, 186, 108);
     transition: 1s;   
-    background-color: rgb(165, 179, 174);
+    background-color: rgb(255, 255, 255);
     transform: scale(1.05);
 }   
 
