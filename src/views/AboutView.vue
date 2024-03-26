@@ -299,7 +299,7 @@ p{
 .card8:hover{
     box-shadow: 5px 6px 15px 10px rgb(126, 227, 222);
     transition: 1s;   
-    background-color: rgb(165, 179, 174);
+    background-color: rgb(255, 255, 255);
     transform: scale(1.05);
 }
 .card9{
