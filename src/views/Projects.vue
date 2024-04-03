@@ -39,8 +39,8 @@
 
 .projects{
     border-top: solid 1px;
-    height: 130vh;
-    margin-top: 4.6rem;
+    height: 100%;
+    margin-top: 3.5rem;;
     font-family: JetBrains Mono, monospace;
 }
 h3 , a{
@@ -77,6 +77,7 @@ button, a:hover {
     align-items: center;
     flex-wrap: wrap;
     display: grid;
+    z-index: -5;
 }
 .content{
     width: 100%;
@@ -186,7 +187,7 @@ button, a:hover {
 
   @media (max-width: 890px) {
     .content{
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
   }
 

@@ -1,45 +1,40 @@
 <template>
-    <div id="Resume">
-        <div class="aside">
-      <h3 style="color: rgb(0, 0, 0); text-decoration: underline;">My Resume</h3>
-    <div class="content">
-        <div class="card1" id="text">
-            <h2 style="color: rgb(0, 0, 0);">2018</h2>
-            <p style="color: rgb(0, 0, 0); padding: 1rem;">Gratuated High School , started working right after school for a year. </p>
- 
-        </div>
-        <div class="card2" id="text">
-            <h2 style="color: rgb(0, 0, 0);">2019</h2>
-            <p style="padding: 1rem; color: rgb(0, 0, 0);">Worked as a Driver and Driver Assistant for one year straight.</p>
-        </div>
-        <div class="card3" id="text">
-            <h3 style="color: rgb(0, 0, 0);">2020</h3>
-            <p style="color: rgb(0, 0, 0); padding: 1rem;">i started becoming very passionate about the tech industry then applied for a IT Course.</p>
-        </div>
-        <div class="card4" id="text">
-            <h3 style="color: rgb(0, 0, 0);">2021</h3>
-            <p style="color: rgb(0, 0, 0); padding: 1rem;">I applied for an intership . i then offered to work for free and eventually got the job.</p>
-
-        </div>
-        <div class="card5" id="text">
-            <h3 style="color: rgb(0, 0, 0);">2022</h3>
-            <p style="color: rgb(0, 0, 0); padding: 1rem;">My internship ended and i was uemployed but still upskilling myself while making money off from my hobby.</p>
-        </div>
-        <div class="card6" id="text">
-            <h3 style="color: rgb(0, 0, 0);">2023</h3>
-            <p style="padding: 1rem; color: rgb(0, 0, 0);">Went Back to being a driver until i applied for Life Choices Coding Bootcamp.</p>
-        </div>  
-      </div>
-    </div>
-
-    <section>
-        <h3 style="color: aliceblue; text-decoration: underline;">My OverAll Objective</h3>
-         
-    </section>
-
-
+  <div id="Resume">
+    <div class="container">
+  <h1>Mountain Star Zlatibor</h1>
+  <p>Zlatibor is a mountain of exceptional beauty whose special geographical properties have made this mountain a real gem of western Serbia.</p>
+  <a href="#">Learn more</a>
 </div>
-  
+
+<div class="container second">
+  <div class="item">
+    <div class="img img-first"></div>
+    <div class="card">
+      <h3>Rock climbing</h3>
+      <p>The goal is to reach the summit of a formation or the endpoint of a usually pre-defined route without falling</p>
+      <a href="#">Learn more</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="img img-second"></div>
+    <div class="card">
+      <h3>Caving</h3>
+      <p>Exploring underground through networks of tunnels and passageways, which can be natural or artificial.</p>
+      <a href="#">Learn more</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="img img-third"></div>
+    <div class="card">
+      <h3>Parachuting</h3>
+      <p>Jumping from an aeroplane and falling through the air before opening your parachute.</p>
+      <a href="#">Learn more</a>
+    </div>
+  </div>
+</div>
+
+<div class="blank"></div>
+  </div>
 </template>
 
 
@@ -48,147 +43,122 @@
  #Resume{
     height: 100%;
     font-family: JetBrains Mono, monospace;
-    border: solid;
     margin-top: 4rem;
-    
  }
 
- .aside{
-    padding: 2rem;
-    display: flex;
-    margin-TOP: 1rem;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    display: grid;
-}
-.content{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 1rem;
-    margin: auto;
+ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+--color: #333; 
 }
 
-/* HTML CARD */
+body {
+  font-family: 'Red Hat Text', sans-serif;
+}
 
- #text{
+.container {
   text-align: center;
-  position: relative;
-
-} 
-
- .card1{
-    border: solid 2px black;
-    height: 180px;
-    width: 280px;
-    transition: 0.5s ease-in-out;
-    
-}
-.card1:hover{
-    box-shadow: 5px 6px 15px 10px rgb(82, 82, 81);
-    transition: 0.5s;
-    transform: scale(1.05);
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+  background-size: cover;
+  background-position: center;
+  
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
 }
 
-.card2{
-    border: solid 2px black;
-    height: 180px;
-    width: 280px;
-    transition: 0.5s ease-in-out;
-}
-.card2:hover{
-    box-shadow: 5px 6px 15px 10px rgb(82, 82, 81);
-    transition: 0.5s;
-    transform: scale(1.05);
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
 }
 
-
-.card3{
-    border: solid 2px black;
-    height: 180px;
-    width: 280px;
-    transition: 0.5s ease-in-out;
-
-}
-.card3:hover{
-    box-shadow: 5px 6px 15px 10px rgb(82, 82, 81);
-    transition: 0.5s;
-    transform: scale(1.05);
+p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
 }
 
-
-.card4{
-    border: solid 2px black;
-    height: 180px;
-    width: 280px;
-    transition: 0.5s ease-in-out;
-}
-.card4:hover{
-    box-shadow: 5px 6px 15px 10px rgb(82, 82, 81);
-    transition: 0.5s;
-    transform: scale(1.05);
-}
-
-.card5{
-    border: solid 2px black;
-    height: 180px;
-    width: 280px;
-    transition: 0.5s ease-in-out; 
-}
-.card5:hover{
-    box-shadow: 5px 6px 15px 10px rgb(82, 82, 81);
-    transition: 0.5s;
-    transform: scale(1.05);
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
 }
 
-.card6{
-    border: solid 2px black;
-    height: 180px;
-    width: 280px;
-    transition: 0.5s ease-in-out;
-} 
-.card6:hover{
-    box-shadow: 5px 6px 15px 10px rgb(82, 82, 81);
-    transition: 0.5s;
-    transform: scale(1.05);
+.blank,
+.other {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
 }
 
-@media (max-width: 1330px){
-    .content{
-        grid-template-columns: 1fr 1fr 1fr;
-      }
+.second {
+  background-image:url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+  background-attachment: fixed;
+  height: 1200px;
 }
 
-@media (max-width: 1200px){
-   .content{
-        grid-template-columns: 1fr 1fr 1fr;
-      }
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1em;
 }
 
-@media (max-width: 1080px) {
-  .content{
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
+.card > a {
+  margin-bottom: 2em;
+}
 
-  @media (max-width: 890px) {
-    .content{
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
+.item {
+  display: flex;
+  max-width: 320px;
+  background-color: white;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
 
-@media (max-width: 780px) {
-  .content{
-      grid-template-columns: 1fr 1fr ;
-    }
-  }
-@media (max-width: 500px) {
-    .content{
-      grid-template-columns: 1fr;
-    }
-  }
+.img {
+  width: 90%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+.img-first {
+  background-image: url(https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1606&q=80);
+}
+
+.img-second {
+  background-image: url(https://images.unsplash.com/photo-1628746404106-4d3843b231b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F2aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
+}
+
+.img-third {
+  background-image: url(https://images.unsplash.com/photo-1632853073412-782bf0279d65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+
+.second {
+  flex-direction: row;
+  gap: 1.6em;
+}
+
 
 
 </style>

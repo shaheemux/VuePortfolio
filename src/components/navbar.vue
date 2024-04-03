@@ -1,191 +1,47 @@
+
 <template>
-  <div class="nav">  
-    <input type="checkbox" id="active">
-     <label for="active" class="menu-btn"><span></span></label>
-     <label for="active" class="close"></label>
- <div class="wrapper">
-   <ul>
-     <li><router-link to="/">Home</router-link></li>
-     <li style="position: relative; right: 1rem;"><router-link to="/about">AboutMe</router-link></li>
-     <li style="position: relative; right: 1rem;"><router-link to="/resume">Resume</router-link></li>
-     <li style="position: relative; right: 1rem;"><router-link to="/projects">MyWork</router-link></li>
-     <li style="position: relative; right: 2rem;"><router-link to="/testimonials">Testimonials</router-link></li>
-     <li style="position: relative; right: 2rem;"><router-link to="/contact">LetsConnect</router-link></li>    
-    </ul>
-   </div>
-  </div> 
- </template>
- 
- <style scoped>
-  
- 
- *{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: 'Lato', sans-serif;
-   font-family: 'Oswald', sans-serif;
+ <nav class="fixed top-0 w-full bg-blue-500 p-4 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 z-50">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 z-60">
+    <router-link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="" class="h-8" alt="" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">S.S</span>
+    </router-link>
+    <button data-collapse-toggle="navbar-hamburger" type="button" class="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-hamburger" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+      </svg>
+    </button>
+    <div class="hidden w-full" id="navbar-hamburger">
+      <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+        <li>
+          <router-link to="/"  href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Home</router-link>
+        </li>
+        <li>
+          <router-link to="/about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">About</router-link>
+        </li>
+        <li>
+          <router-link to="/resume" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white">MyJourney</router-link>
+        </li>
+        <li>
+          <router-link to="/projects" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Projects</router-link>
+        </li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+</template>
+
+<style scoped>
+ .fixed{
+  background: transparent;
+  backdrop-filter: blur(8px);
+  border: none;
  }
- 
- li{
-     color: #fff;
- }
- .wrapper{
-   position: fixed;
-   top: 0;
-   /*left: -100%;*/
-   right: -100%;
-   height: 100%;
-   width: 100%;
-   background: linear-gradient(to right, #434343 0%, black 100%); 
-   /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
-   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-  /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
-   transition: all 0.6s ease-in-out;
-   z-index: 2;
- }
- #active:checked ~ .wrapper{
-   /*left: 0;*/
-   right:0;
- }
- .menu-btn{
-   position: absolute;
-   z-index: 3;
-   right: 20px;
-   /*left: 20px; */
-   top: 20px;
-   height: 50px;
-   width: 50px;
-   text-align: center;
-   line-height: 50px;
-   border-radius: 50%;
-   font-size: 20px;
-   cursor: pointer;
-   transition: all 0.3s ease-in-out;
- }
- .menu-btn span,
- .menu-btn:before,
- .menu-btn:after{
-   content: "";
-   position: absolute;
-   top: calc(50% - 1px);
-   left: 30%;
-   width: 40%;
-   border-bottom: 2px solid #000;
-   transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
- }
- .menu-btn:before{
-   transform: translateY(-8px);
- }
- .menu-btn:after{
-   transform: translateY(8px);
- }
- 
- 
- .close {
-   z-index: 1;
-   width: 100%;
-   height: 100%;
-   pointer-events: none;
-   transition: background .6s;
- }
- 
- /* closing animation */
- #active:checked + .menu-btn span {
-   transform: scaleX(0);
- }
- #active:checked + .menu-btn:before {
-   transform: rotate(45deg);
-   border-color: #fff;
- }
- #active:checked + .menu-btn:after {
-   transform: rotate(-45deg);
-   border-color: #fff;
- }
- .wrapper ul{
-   position: absolute;
-   top: 60%;
-   left: 50%;
-   height: 90%;
-   transform: translate(-50%, -50%);
-   list-style: none;
-   text-align: center;
- }
- .wrapper ul li{
-   height: 10%;
-   margin: 15px 0;
- }
- .wrapper ul li a{
-   text-decoration: none;
-   font-size: 30px;
-   font-weight: 500;
-   padding: 5px 30px;
-   color: #fff;
-   border-radius: 50px;
-   position: absolute;
-   line-height: 50px;
-   margin: 5px 30px;
-   opacity: 0;
-   transition: all 0.3s ease;
-   transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
- }
- .wrapper ul li a:after{
-   position: absolute;
-   content: "";
-   background: #fff;
-    /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
-   /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
-   width: 100%;
-   height: 100%;
-   left: 0;
-   top: 0;
-   border-radius: 50px;
-   transform: scaleY(0);
-   z-index: -1;
-   transition: transform 0.3s ease;
- }
- .wrapper ul li a:hover:after{
-   transform: scaleY(1);
- }
- .wrapper ul li a:hover{
-   color: #000000;
- }
- input[type="checkbox"]{
-   display: none;
- }
- .content{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   z-index: -1;
-   text-align: center;
-   width: 100%;
-   color: #202020;
- }
- .content .title{
-   font-size: 40px;
-   font-weight: 700;
- }
- .content p{
-   font-size: 35px;
-   font-weight: 600;
- }
- 
- #active:checked ~ .wrapper ul li a{
-   opacity: 1;
- }
- .wrapper ul li a{
-   transition: opacity 1.2s, transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
-   transform: translateX(100px);
- }
- #active:checked ~ .wrapper ul li a{
-   transform: none;
-   transition-timing-function: ease, cubic-bezier(.1,1.3,.3,1); /* easeOutBackを緩めた感じ */
-    transition-delay: .6s;
-   transform: translateX(-100px);
- }
- 
- 
- 
- </style>
+
+.flex{
+  background: transparent;
+  backdrop-filter: blur(8px);
+}
+
+</style>
