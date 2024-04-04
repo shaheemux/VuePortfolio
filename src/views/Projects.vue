@@ -1,33 +1,33 @@
 <template>
   <div class="projects">
     <div class="aside">
-      <h3 style="color: aliceblue; text-decoration: underline;">MY WORK</h3>
+      <h3 class="work" style="color: aliceblue; text-decoration: underline;">MY WORK</h3>
     <div class="content">
 
         <div class="card1" id="text">
-          <h3 style="color: aliceblue; padding: 1rem;">Calculator App</h3>
-          <button style="border-radius:4px;"><a href="https://github.com/shaheemux/java-cal.git">Github Repo</a></button>
+          <h3 style="color: aliceblue; padding: 1rem;">E-Commerce Website</h3>
+          <button style="border-radius:4px;"><a href="https://capstone-project-c0944.web.app/" target="_blank">VIEW ONLINE</a></button>
         </div>
 
         <div class="card2" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">Netflix Clone</h3>
-          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/Netflix-Clone-.git">Github Repo</a></button>
+          <button style="border-radius:4px ;"><a href="https://netflix-clone-mu-jade.vercel.app/" target="_blank">VIEW ONLINE</a></button>
         </div>
         <div class="card3" id="text">
-          <h3 style="color: aliceblue; padding: 1rem;">Counting App</h3>
-          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/counter-app.git">Github Repo</a></button>
+          <h3 style="color: aliceblue; padding: 1rem;">Tailwind Css Project</h3>
+          <button style="border-radius:4px ;"><a href="https://tailwind-project-pi.vercel.app/" target="_blank">VIEW ONLINE</a></button>
         </div>
         <div class="card4" id="text">
-          <h3 style="color: aliceblue; padding: 1rem;">Todo List</h3>
-          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/To-Do-List.git">Github Repo</a></button>
+          <h3 style="color: aliceblue; padding: 1rem;">My Portfolio with Html/Css</h3>
+          <button style="border-radius:4px ;"><a href="https://my-portfolio-swart-five-69.vercel.app/" target="_blank">VIEW ONLINE</a></button>
         </div>
         <div class="card5" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">My Portfolio</h3>
-          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/My-Portfolio.git">Github Repo</a></button>
+          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/My-Portfolio.git" target="_blank">VIEW ONLINE</a></button>
         </div>
         <div class="card6" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">Minutes To Secods</h3>
-          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/minutes-to-seconds.git">Github Repo</a></button>
+          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/minutes-to-seconds.git" target="_blank">VIEW ONLINE</a></button>
         </div>  
     </div>
 </div>
@@ -38,11 +38,17 @@
 <style scoped>
 
 .projects{
-    border-top: solid 1px;
     height: 100%;
-    margin-top: 3.5rem;;
+    margin-top: 4rem;;
     font-family: JetBrains Mono, monospace;
 }
+
+.work{
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
 h3 , a{
   color: black !important;
 }

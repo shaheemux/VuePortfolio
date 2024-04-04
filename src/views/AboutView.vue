@@ -1,7 +1,27 @@
 <template>
   <section class="about">
+
+
+    <p class="sub"  style="text-decoration: underline;">
+    About Myself
+    </p>
+    <div class="myself">
+
+
+      <div class="box1">
+        <img src="https://i.postimg.cc/Dwb6sJW1/img-1-1712061818408.jpg" style="height: 250px; width: 220px; border-radius: 6px; padding: 1rem; margin-left: 60px;" alt="">
+      </div>
+
+
+      <div class="box2">
+          <P class="name" style="padding:1rem; font-size: 14px;">MY name is Moeghamat Shaheem Salie but Shaheem Salie for short . I am 25 years old and I was born and raised in Mitchells Plain Tafelsig . I Graduated high-school in 2018 . I am very passionate about the tech industry and love up-skillng myself within this field everyday . I am detail orientated with a "can do spirit". In my free time I always make sure to keep up with what is trending , video editing , graphic designing or just drawing . With zero coding experience I joined Life Choices academy coding Bootcamp and became very passionate about it started making life choices of my very own.</P>
+      </div>
+    </div>
+
+    <div style="border-bottom: 1px solid;"></div>
+
     <div class="aside">
-      <h3 style="color: black; text-decoration: underline;">Skills</h3>
+      <h3 class="skills" style="color: black; text-decoration: underline;">Skills</h3>
         <div class="content">
         <div class="card1" id="text"></div>
         <div class="card2" id="text"></div>
@@ -22,7 +42,53 @@
 .about{
    height: 100%;
    padding: 1rem;
+ 
+ }
+
+ .name{
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+ .skills{
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem
+ }
+
+.sub{
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
 }
+
+
+.myself{
+  height: 100%;
+  margin-top: 2.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  
+}
+
+.box1{
+  height: 250px;
+  width: 350px;
+  margin-right: 5rem;
+
+}
+
+.box2{
+  height: 100%;
+  width: 350px;
+}
+
 
 @media screen and (max-width: 300px) {
  .about{
@@ -276,8 +342,5 @@
       grid-template-columns: 1fr;
     }
   }
-
-/* cards */
-
 
 </style>

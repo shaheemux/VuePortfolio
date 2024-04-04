@@ -1,5 +1,9 @@
 <template>
     <main class="home">
+     <div class="parent">
+      <h2 class="body">Hi , <span>I AM</span> <br> SHAHEEM SALIE....</h2>
+      <img src="" alt="">
+    </div>
       <div class="heading">
 
 <div class="gridywrap">
@@ -9,62 +13,62 @@
     <div class="gridinfo">
       <h3>About MYSELF</h3>
       <div class="gridmeta">
-        <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
-        <p class="gridwho"><i class="fa fa-user"></i> Bruce Wayne</p>
+        <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
+        <p class="gridwho"><i class="fa fa-user"></i></p>
       </div>
-      <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+      <p class="gridexerpt">Who am i ?</p>
       <router-link to="/about" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
     </div>
   </div>
   <div class="gridy-1 gridyhe-1">
-    <div class="gridimg" style="background-image: url(https://unsplash.imgix.net/photo-1417722009592-65fa261f5632?q=75&fm=jpg&s=553e7d8a753f4d7b2a4161dcbe9d9801)">&nbsp;</div>
+    <div class="gridimg" style="background-image: url(https://i.postimg.cc/5ysxRFQt/Css-Background-Image.avif)">&nbsp;</div>
     
     <div class="gridinfo">
-      <h3>My Journey</h3>
+      <h3>My work</h3>
       <div class="gridmeta">
-        <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
-        <p class="gridwho"><i class="fa fa-user"></i> Harvey Dent</p>
+        <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
+        <p class="gridwho"><i class="fa fa-user"></i></p>
       </div>
-      <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
-      <router-link to="/resume" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
-    </div>
-  </div>
-  <div class="gridy-1 gridyhe-2">
-    <div class="gridimg" style="background-image: url(https://ununsplash.imgix.net/photo-1416934625760-d56f5e79f6fe?q=75&fm=jpg&s=032ca37757b3dc1851661856b956a24c)">&nbsp;</div>
-    
-    <div class="gridinfo">
-      <h3>My Work</h3>
-      <div class="gridmeta">
-        <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
-        <p class="gridwho"><i class="fa fa-user"></i> Clark Kent</p>
-      </div>
-      <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+      <p class="gridexerpt">What i've done....</p>
       <router-link to="/projects" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
     </div>
   </div>
+  <div class="gridy-1 gridyhe-2">
+    <div class="gridimg" style="background-image: url(https://i.postimg.cc/L5DzQvVZ/educ.jpg)">&nbsp;</div>
+    
+    <div class="gridinfo">
+      <h3>Education & Experience</h3>
+      <div class="gridmeta">
+        <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
+        <p class="gridwho"><i class="fa fa-user"></i></p>
+      </div>
+      <p class="gridexerpt">What i've accomplished thus far...</p>
+      <router-link to="/resume" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
+    </div>
+  </div>
   <div class="gridy-2 gridyhe-1">
-    <div class="gridimg" style="background-image: url(https://unsplash.imgix.net/uploads/1412862685615b0212e3d/5fcb0a55?q=75&fm=jpg&s=e003fb9a4e39e3c07e4a94f7e0ef3db8)">&nbsp;</div>
+    <div class="gridimg" style="background-image: url(https://i.postimg.cc/VsGgFVrq/360-F-623150253-l-Pqj-Qnw-D86-Lg-DRDd2-S6x-Y6-RCqjo1-Ttm9.jpg)">&nbsp;</div>
     
     <div class="gridinfo">
       <h3>Testimonials</h3>
       <div class="gridmeta">
-        <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
-        <p class="gridwho"><i class="fa fa-user"></i> Tony Stark</p>
+        <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
+        <p class="gridwho"><i class="fa fa-user"></i></p>
       </div>
-      <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
-      <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+      <p class="gridexerpt">What people have to say about me...</p>
+      <router-link to="/testimonials" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
     </div>
   </div>
   <div class="gridy-1 gridyhe-1">
     <div class="gridimg" style="background-image: url(https://ununsplash.imgix.net/photo-1418227165283-1595d13726cd?q=75&fm=jpg&s=cace1590a29be6d4d6db13c3ebd1ba72)">&nbsp;</div>
     <div class="gridinfo">
-      <h3>Item Title</h3>
+      <h3>Reach out to me</h3>
       <div class="gridmeta">
-        <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
-        <p class="gridwho"><i class="fa fa-user"></i> Steve Rogers</p>
+        <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
+        <p class="gridwho"><i class="fa fa-user"></i></p>
       </div>
-      <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
-      <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+      <p class="gridexerpt">Lets get in touch....</p>
+      <router-link to="/contact" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
     </div>
   </div>
   <div class="gridy-1 gridyhe-1">
@@ -73,10 +77,10 @@
     <div class="gridinfo">
       <h3>Item Title</h3>
       <div class="gridmeta">
-        <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
-        <p class="gridwho"><i class="fa fa-user"></i> Natasha Romanoff</p>
+        <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
+        <p class="gridwho"><i class="fa fa-user"></i></p>
       </div>
-      <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+      <p class="gridexerpt"></p>
       <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
     </div>
   </div>
@@ -94,6 +98,95 @@
    height: 100%;
    box-sizing: border-box;
 }
+
+
+
+@keyframes lights {
+  0% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+  30% { 
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  40% { 
+    color: hsl(230, 100%, 95%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 90%, 0.5),
+      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  70% {
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  100% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+}
+
+.body{
+  margin-top: 8rem;
+}
+
+ .parent{
+  height: 50vh;
+  margin: 0;
+  font: 100% / 1.5 Raleway, sans-serif;
+  color: hsl(230, 100%, 95%);
+  background: linear-gradient(135deg, hsl(230, 40%, 12%), hsl(230, 20%, 7%));
+  height: 100vh;
+  display: flex;
+}
+
+h2 {
+  margin: auto;
+  font-size: 3.5rem;
+  font-weight: 300;
+  animation: lights 5s 750ms linear infinite;
+}
+
+.gridywrap{
+  animation: fadeInDownBigFromRight 1s ease-out;
+}
+ 
+
+@keyframes fadeInDownBigFromRight {
+ from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+ }
+
+ to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+ }
+}
+
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
@@ -269,5 +362,6 @@ h1 {
 .intro p a {
   color: #FA8CD3;
 }
+
 </style>
   
