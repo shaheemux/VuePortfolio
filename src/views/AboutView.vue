@@ -80,8 +80,6 @@
 .box1{
   height: 250px;
   width: 350px;
-  margin-right: 5rem;
-
 }
 
 .box2{
