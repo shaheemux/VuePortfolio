@@ -1,7 +1,7 @@
 <template>
   <div class="projects">
     <div class="aside">
-      <h3 style="color: aliceblue; text-decoration: underline;">My projects</h3>
+      <h3 style="color: aliceblue; text-decoration: underline;">MY WORK</h3>
     <div class="content">
 
         <div class="card1" id="text">

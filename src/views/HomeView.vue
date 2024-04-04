@@ -7,46 +7,46 @@
     <div class="gridimg" style="background-image: url(https://ununsplash.imgix.net/photo-1415302199888-384f752645d0?q=75&fm=jpg&s=823bdcc1b7ad955f5180efd352561016)">&nbsp;</div>
     
     <div class="gridinfo">
-      <h3>Item Title</h3>
+      <h3>About MYSELF</h3>
       <div class="gridmeta">
         <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
         <p class="gridwho"><i class="fa fa-user"></i> Bruce Wayne</p>
       </div>
       <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
-      <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+      <router-link to="/about" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
     </div>
   </div>
   <div class="gridy-1 gridyhe-1">
     <div class="gridimg" style="background-image: url(https://unsplash.imgix.net/photo-1417722009592-65fa261f5632?q=75&fm=jpg&s=553e7d8a753f4d7b2a4161dcbe9d9801)">&nbsp;</div>
     
     <div class="gridinfo">
-      <h3>Item Title</h3>
+      <h3>My Journey</h3>
       <div class="gridmeta">
         <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
         <p class="gridwho"><i class="fa fa-user"></i> Harvey Dent</p>
       </div>
       <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
-      <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+      <router-link to="/resume" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
     </div>
   </div>
   <div class="gridy-1 gridyhe-2">
     <div class="gridimg" style="background-image: url(https://ununsplash.imgix.net/photo-1416934625760-d56f5e79f6fe?q=75&fm=jpg&s=032ca37757b3dc1851661856b956a24c)">&nbsp;</div>
     
     <div class="gridinfo">
-      <h3>Item Title</h3>
+      <h3>My Work</h3>
       <div class="gridmeta">
         <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
         <p class="gridwho"><i class="fa fa-user"></i> Clark Kent</p>
       </div>
       <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
-      <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+      <router-link to="/projects" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
     </div>
   </div>
   <div class="gridy-2 gridyhe-1">
     <div class="gridimg" style="background-image: url(https://unsplash.imgix.net/uploads/1412862685615b0212e3d/5fcb0a55?q=75&fm=jpg&s=e003fb9a4e39e3c07e4a94f7e0ef3db8)">&nbsp;</div>
     
     <div class="gridinfo">
-      <h3>Item Title</h3>
+      <h3>Testimonials</h3>
       <div class="gridmeta">
         <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
         <p class="gridwho"><i class="fa fa-user"></i> Tony Stark</p>
@@ -90,7 +90,7 @@
 <style scoped>
 
 .home{
-   margin-top: 6.5rem; 
+   margin-top: 4.5rem; 
    height: 100%;
    box-sizing: border-box;
 }

@@ -1,10 +1,10 @@
 
 <template>
- <nav class="fixed top-0 w-full bg-blue-500 p-4 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 z-50">
+ <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 z-60">
     <router-link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="" class="h-8" alt="" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">S.S</span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
     </router-link>
     <button data-collapse-toggle="navbar-hamburger" type="button" class="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-hamburger" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
@@ -26,6 +26,9 @@
         <li>
           <router-link to="/projects" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Projects</router-link>
         </li>
+        <li>
+          <router-link to="/contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Reach out to Me</router-link>
+        </li>
       </ul>
     </div>
   </div>
@@ -33,15 +36,9 @@
 </template>
 
 <style scoped>
- .fixed{
+ .bg-white{
   background: transparent;
   backdrop-filter: blur(8px);
   border: none;
  }
-
-.flex{
-  background: transparent;
-  backdrop-filter: blur(8px);
-}
-
 </style>
