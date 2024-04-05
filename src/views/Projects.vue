@@ -1,7 +1,7 @@
 <template>
   <div class="projects">
+    <h3 class="work" style="color: aliceblue; text-decoration: underline;">MY WORK</h3>
     <div class="aside">
-      <h3 class="work" style="color: aliceblue; text-decoration: underline;">MY WORK</h3>
     <div class="content">
 
         <div class="card1" id="text">
@@ -11,7 +11,6 @@
 
         <div class="card2" id="text">
           <h3 style="color: white; padding: 1rem;">Netflix Clone</h3>
-          <img src="https://i.postimg.cc/6qhW0H0F/Netflix-1.jpg">
           <button style="border-radius:4px ;"><a href="https://netflix-clone-mu-jade.vercel.app/" target="_blank">VIEW ONLINE</a></button>
         </div>
         <div class="card3" id="text">
@@ -42,7 +41,6 @@
     height: 100%;
     margin-top: 6.5rem;;
     font-family: JetBrains Mono, monospace;
-    background: linear-gradient(to top, #acafb1 0%, #e2ebf0 100%);
 }
 
 .work{
@@ -87,7 +85,20 @@ button, a:hover {
     flex-wrap: wrap;
     display: grid;
     z-index: -5;
+    animation: zoomIn 1s ease-in-out;
 }
+
+@keyframes zoomIn {
+ from {
+    opacity: 0;
+    transform: scale(0);
+ }
+ to {
+    opacity: 1;
+    transform: scale(1);
+ }
+}
+
 .content{
     width: 100%;
     display: grid;

@@ -27,10 +27,12 @@
                                 <h6 class="font-bold text-sm uppercase text-gray-600">Maliek Hendricks</h6>
                             </div>
                         </div>
+
                         <div class="w-full">
                             <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Shaheem was working for me for 2 years and always performed exceptionally well and always getting the job done . He is a really reliant person whenever i needed someoone to come in on a weekend to work he would always pitch.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
+
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                         <div class="w-full flex mb-4 items-center">
                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
@@ -113,6 +115,7 @@
         </a>
     </div>
 </div>
+
   </div>
 </template>
 
@@ -122,22 +125,18 @@
 }
 
 .-mx-3{
-    animation: fadeInDownBigFromTop 1s ease-out !important;
+    animation: zoomIn 1s ease-in-out;
 }
-@keyframes fadeInDownBigFromTop {
+@keyframes zoomIn {
  from {
     opacity: 0;
-    transform: translate3d(0, -100%, 0);
+    transform: scale(0);
  }
-
  to {
     opacity: 1;
-    transform: translate3d(0, 0, 0);
+    transform: scale(1);
  }
-}
-
-.text-6xl{
-    animation: fadeInDownBigFromLeft 1s ease-out;
 }
 
 </style>
+import { split } from 'core-js/fn/symbol';

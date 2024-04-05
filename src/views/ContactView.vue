@@ -184,19 +184,18 @@ textarea:hover {
 }
 
 .topBefore{
-  animation: fadeInDownBigFromRight 1s ease-out;
+  animation: zoomIn 1s ease-in-out;
 }
  
 
-@keyframes fadeInDownBigFromRight {
+@keyframes zoomIn {
  from {
     opacity: 0;
-    transform: translate3d(100%, 0, 0);
+    transform: scale(0);
  }
-
  to {
     opacity: 1;
-    transform: translate3d(0, 0, 0);
+    transform: scale(1);
  }
 }
 
