@@ -199,4 +199,33 @@ textarea:hover {
     transform: translate3d(0, 0, 0);
  }
 }
+
+@media (max-width: 600px) {
+ body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+ }
+
+ header {
+    margin: 50px 0 25px 0; /* Reduce margin for smaller screens */
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+ }
+
+ #form {
+    width: 90%; /* Make the form width responsive */
+    margin: 20px auto 50px auto; /* Adjust margins for smaller screens */
+ }
+
+ input, textarea {
+    width: 100%; /* Make input and textarea width responsive */
+    max-width: 100%; /* Ensure they don't exceed the form width */
+    height: auto; /* Adjust height for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+ }
+
+ #submit {
+    width: 100%; /* Make submit button width responsive */
+    padding: 10px; /* Adjust padding for smaller screens */
+ }
+}
+
 </style>

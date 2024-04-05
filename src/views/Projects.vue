@@ -10,7 +10,8 @@
         </div>
 
         <div class="card2" id="text">
-          <h3 style="color: aliceblue; padding: 1rem;">Netflix Clone</h3>
+          <h3 style="color: white; padding: 1rem;">Netflix Clone</h3>
+          <img src="https://i.postimg.cc/6qhW0H0F/Netflix-1.jpg">
           <button style="border-radius:4px ;"><a href="https://netflix-clone-mu-jade.vercel.app/" target="_blank">VIEW ONLINE</a></button>
         </div>
         <div class="card3" id="text">
@@ -39,25 +40,27 @@
 
 .projects{
     height: 100%;
-    margin-top: 4rem;;
+    margin-top: 6.5rem;;
     font-family: JetBrains Mono, monospace;
+    background: linear-gradient(to top, #acafb1 0%, #e2ebf0 100%);
 }
 
 .work{
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-size: 2rem;
+  color: black;
 }
 
 h3 , a{
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 button{
   background: transparent;
   padding: 1rem;
-  color: rgb(0, 0, 0);
-  border: solid black 1px;
+  color: rgb(8, 8, 8);
+  border: solid rgb(0, 0, 0) 1px;
   transition: 0.5s ease-in-out;
 }
 button:hover{
@@ -115,7 +118,7 @@ button, a:hover {
 }
 
 .card2{
-    border: solid 2px black;
+    border: solid 2px rgb(0, 0, 0);
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;

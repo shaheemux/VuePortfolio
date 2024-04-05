@@ -1,13 +1,14 @@
 
 <template>
- <nav class="navbar bg-white border-gray-200 dark:bg-gray-900 fixed w-full z-50 top-0 start-0">
-  <div class="page">
-  <header tabindex="0"></header>
-  <div id="nav-container">
-    <div class="bg"></div>
-    <div class="button" tabindex="0">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+ <div id="navbar">  
+  <nav class="navbar bg-white border-gray-200 dark:bg-gray-900 fixed w-full z-50 top-0 start-0">
+   <div class="page">
+    <header tabindex="0"></header>
+     <div id="nav-container">
+  <div class="bg"></div>
+       <div class="button" tabindex="0">
+        <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </div>
     <div id="nav-content" tabindex="0">
@@ -25,10 +26,17 @@
 
 </div>
  </nav>
+</div>
 </template>
 
 <style scoped>
- .header{
+
+
+#navbar{
+  margin-top: 4.5rem
+}
+
+ header{
   background: transparent;
   backdrop-filter: blur(12px);
   border: none;

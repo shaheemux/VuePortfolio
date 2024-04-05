@@ -1,9 +1,5 @@
 <template>
     <main class="home">
-     <div class="parent">
-      <h2 class="body">Hi , <span>I AM</span> <br> SHAHEEM SALIE....</h2>
-      <img src="" alt="">
-    </div>
       <div class="heading">
 
 <div class="gridywrap">
