@@ -1,6 +1,6 @@
 <template>
   <div class="education">
-	<h1>Education & Experience</h1>
+	<h1 style="text-decoration: underline;">Education & Experience</h1>
 <ul>
     <li style="--accent-color:#41516C">
         <div class="date">2018</div>
@@ -30,7 +30,7 @@
     <li style="--accent-color:purple">
         <div class="date">2023</div>
         <div class="title"></div>
-        <div class="descr">Went Back to being a driver until i applied for Life Choices Coding Bootcamp.</div>
+        <div class="descr">Went Back to being a driver until i applied at Life Choices Coding Bootcamp.</div>
     </li>
     <li style="--accent-color:red">
         <div class="date">2023</div>
