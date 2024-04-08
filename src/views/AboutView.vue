@@ -125,7 +125,7 @@
     grid-gap: 20px;
     padding: 1rem;
     margin: auto;
-    margin-left: 12rem;
+    margin-left: 20em;
     animation: zoomIn 1s ease-in-out;
 }
 
@@ -318,7 +318,137 @@
   font-size: 2rem;
   color: black;
   text-decoration: underline;
-  margin-left: 12rem;
+  margin-left: 10em;
+  flex-wrap: wrap;
 }
+
+.about{
+    margin-top: 4.5rem;
+}
+
+.container{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: grid;
+}
+
+.placeholder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 1rem;
+    margin: auto;
+    margin-left: 20em;
+    animation: zoomIn 1s ease-in-out;
+}
+
+/* Card styles omitted for brevity */
+
+@media (max-width: 1330px){
+    .placeholder{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 10em;
+    }
+}
+
+@media (max-width: 1200px){
+    .placeholder{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 5em;
+    }
+}
+
+@media (max-width: 1080px) {
+    .placeholder{
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 2em;
+    }
+}
+
+@media (max-width: 890px) {
+    .placeholder{
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 1em;
+    }
+}
+
+@media (max-width: 780px) {
+    .placeholder{
+      grid-template-columns: 1fr 1fr;
+      margin-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .placeholder{
+      grid-template-columns: 1fr;
+    }
+}
+
+.mb-4 , .mb-2 , .shadow-xl{
+ animation: zoomIn 1s ease-in-out;
+}
+
+@keyframes zoomIn {
+ from {
+    opacity: 0;
+    transform: scale(0);
+ }
+ to {
+    opacity: 1;
+    transform: scale(1);
+ }
+}
+
+.type{
+ font-size: 2rem;
+ font-family: "Lilita One", sans-serif;
+ font-weight: 400;
+ color: black;
+ text-decoration: underline;
+ margin-left: 10em;
+ flex-wrap: wrap;
+}
+
+/* Additional media queries for font size adjustment */
+@media (max-width: 1330px){
+    .type{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .type{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .type{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 890px) {
+    .type{
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .type{
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .type{
+        font-size: 0.625rem;
+    }
+}
+
 
 </style>

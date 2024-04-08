@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Working with Shaheem has been an absolute pleasure. Their reliability and dedication to their work are evident in every task they undertake. Shaheem approaches his responsibilities with a level of professionalism and commitment that is truly inspiring.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Working with Shaheem has been an absolute pleasure. His reliability and dedication to his work are evident in every task they undertake. Shaheem approaches his responsibilities with a level of professionalism and commitment that is truly inspiring.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>I have had the pleasure of managing Shaheem for the past two years, and I can attest to his exceptional reliability and strong work ethic. Shaheem consistently demonstrates a high level of commitment to his work and is a go to team player, always ensuring that tasks are completed efficiently and accurately.!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> Shaheem consistently demonstrates a high level of commitment to his work and is a go to team player, always ensuring that tasks are completed efficiently and accurately.!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">

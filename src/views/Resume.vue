@@ -35,10 +35,10 @@
     <li style="--accent-color:red">
         <div class="date">2023</div>
         <div class="title"></div>
-        <div class="descr"></div>
+        <div class="descr">Gratuated at Life Choices coding acedemy and i am now working at Life Choices as a intern.</div>
     </li>
 </ul>
-<div class="credits"><a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">inspired by</a></div>
+<div class="credits"><a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm"></a></div>
   </div>
 </template>
 
