@@ -86,10 +86,10 @@
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> Shaheem consistently demonstrates a high level of commitment to his work and is a go to team player, always ensuring that tasks are completed efficiently and accurately.!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> Shaheem consistently demonstrates a high level of commitment to his work and is a go to team player, always ensuring that tasks are completed efficiently and accurately ! ,i have witnessed over the months of being around Shaheem , he always persevere through tough times . <span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
-                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6" id="card">
                         <div class="w-full flex mb-4 items-center">
                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                 <img src="https://cdn-thumbs.imagevenue.com/03/2b/53/ME17ZHJX_t.jpg" alt="">
@@ -123,6 +123,10 @@
 .testimonials{
   margin-top: 4.5rem;
 }
+
+/* #card{
+  margin-top: 4rem;
+} */
 
 .-mx-3{
     animation: zoomIn 1s ease-in-out;

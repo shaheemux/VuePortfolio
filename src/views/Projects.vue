@@ -51,14 +51,15 @@
 }
 
 h3 , a{
-  color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 500 !important;
 }
 
 button{
   background: transparent;
   padding: 1rem;
   color: rgb(8, 8, 8);
-  border: solid rgb(0, 0, 0) 1px;
+  border: solid rgb(255, 255, 255) 1px;
   transition: 0.5s ease-in-out;
 }
 button:hover{
@@ -119,7 +120,10 @@ button, a:hover {
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
-    
+    background-image: url(https://i.postimg.cc/fR231z4K/Netflix-Clone-Mozilla-Firefox-2024-04-10-10-14-16.png);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
 }
 .card1:hover{
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
@@ -133,6 +137,10 @@ button, a:hover {
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
+    background-image: url(https://i.postimg.cc/wB2wCsqr/Netflix-Clone-Mozilla-Firefox-2024-04-10-10-13-09.png);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
 }
 .card2:hover{
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
@@ -145,6 +153,9 @@ button, a:hover {
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
+    background-image: url(https://i.postimg.cc/J4XyBzmG/Tailwind-project-Mozilla-Firefox-2024-04-10-09-47-32.png);
+    background-size: cover;
+    background-position: center;
 }
 .card3:hover{
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);

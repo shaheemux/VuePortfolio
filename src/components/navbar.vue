@@ -198,7 +198,17 @@ main small {
 
 #nav-content li a:hover {
   color: #BF7497;
+
 }
+
+#nav-content li a:active {
+  color: #BF7497 !important;
+
+}
+
+
+
+
 
 #nav-content li:not(.small) + .small {
   margin-top: auto;

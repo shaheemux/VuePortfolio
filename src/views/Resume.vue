@@ -269,6 +269,43 @@ ul li .descr::before {
   color: var(--color);
 }
 
+@media (max-width: 450px) {
+ .education {
+    margin-right: 2rem; /* Reduce margin to better fit smaller screens */
+    padding: 0.5rem; /* Reduce padding to better fit smaller screens */
+ }
+
+ h1 {
+    font-size: 1.5rem; /* Reduce font size to better fit smaller screens */
+ }
+
+ ul {
+    --col-gap: 1rem; /* Reduce column gap to better fit smaller screens */
+    --row-gap: 1rem; /* Reduce row gap to better fit smaller screens */
+    --line-w: 0.15rem; /* Reduce line width to better fit smaller screens */
+    width: min(40rem, 90%); /* Adjust width to better fit smaller screens */
+ }
+
+ ul li .date {
+    --dateH: 2rem; /* Reduce date height to better fit smaller screens */
+    font-size: 1rem; /* Reduce font size to better fit smaller screens */
+ }
+
+ ul li .title,
+ ul li .descr {
+    padding-inline: 1rem; /* Reduce padding to better fit smaller screens */
+ }
+
+ ul li .title::before,
+ ul li .descr::before {
+    height: 0.3rem; /* Reduce shadow height to better fit smaller screens */
+ }
+
+ .credits {
+    margin-top: 0.5rem; /* Reduce margin to better fit smaller screens */
+ }
+}
+  
 
 
 </style>
