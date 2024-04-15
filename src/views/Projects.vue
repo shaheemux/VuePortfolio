@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-    <h3 class="work" style="color: aliceblue; text-decoration: underline;">MY WORK</h3>
+    <h3 class="work" style="color: black; text-decoration: underline;">MY WORK</h3>
     <div class="aside">
     <div class="content">
 
@@ -22,8 +22,8 @@
           <button style="border-radius:4px ;"><a href="https://my-portfolio-swart-five-69.vercel.app/" target="_blank">VIEW ONLINE</a></button>
         </div>
         <div class="card5" id="text">
-          <h3 style="color: aliceblue; padding: 1rem;">My Portfolio</h3>
-          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/My-Portfolio.git" target="_blank">VIEW ONLINE</a></button>
+          <h3 style="color: aliceblue; padding: 1rem;">Tekken Gallery</h3>
+          <button style="border-radius:4px ;"><a href="https://tekken-8-gallary.vercel.app/" target="_blank">VIEW ONLINE</a></button>
         </div>
         <div class="card6" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">Minutes To Secods</h3>
@@ -61,6 +61,7 @@ button{
   color: rgb(8, 8, 8);
   border: solid rgb(255, 255, 255) 1px;
   transition: 0.5s ease-in-out;
+  border-radius: 50%;
 }
 button:hover{
   background: transparent;
@@ -129,6 +130,7 @@ button, a:hover {
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
 
 }
 
@@ -146,6 +148,7 @@ button, a:hover {
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 .card3{
@@ -161,29 +164,43 @@ button, a:hover {
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 .card4{
   border: solid 2px black;
-    height: 250px;
-    width: 340px;
-    transition: 0.5s ease-in-out;
+  height: 250px;
+  width: 340px;
+  transition: 0.5s ease-in-out;
+  background-image: url(https://i.postimg.cc/t4KQhng2/Shaheem-Salie-Mozilla-Firefox-2024-04-15-15-50-35.png);
+  background-position: center;
+  background-size: cover;
+
 }
 .card4:hover{
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 .card5{
   border: solid 2px black;
     height: 250px;
     width: 340px;
-    transition: 0.5s ease-in-out;}
+    transition: 0.5s ease-in-out;
+    background-image: url(https://i.postimg.cc/PJtw3qSw/Tekken-8-Gallery-Mozilla-Firefox-2024-04-15-16-02-39.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
 .card5:hover{
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
+    background: rgb(167, 179, 242);
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 .card6{
@@ -196,6 +213,7 @@ button, a:hover {
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 @media (max-width: 1330px){
@@ -232,7 +250,4 @@ button, a:hover {
       grid-template-columns: 1fr;
     }
   }
-
-
-
 </style>

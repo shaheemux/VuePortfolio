@@ -39,7 +39,7 @@
                                 <img src="https://cdn-thumbs.imagevenue.com/4e/e8/1c/ME17ZHII_t.jpg" alt="">
                             </div>
                             <div class="flex-grow pl-3">
-                                <h6 class="font-bold text-sm uppercase text-gray-600">Fagan Miller</h6>
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Fagan Muller</h6>
                             </div>
                         </div>
                         <div class="w-full">

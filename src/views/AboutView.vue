@@ -82,25 +82,10 @@
       </div>
     </div>
   </div>
-</footer>
-  </section>
-</main>
-
-<div class="container">
- <div class="type">What I've Learnt</div>
-    <div class="placeholder">
-        <div class="card1" id="text"></div>
-        <div class="card2" id="text"></div>
-        <div class="card3" id="text"></div>
-        <div class="card4" id="text"></div>
-        <div class="card5" id="text"></div>
-        <div class="card6" id="text"></div>   
-        <div class="card7" id="text"></div>   
-        <div class="card8" id="text"></div>   
-        <div class="card9" id="text"></div>   
-    </div>
-</div>
-</div>
+     </footer>
+    </section>
+   </main>
+  </div>
  </template>
  
 <style scoped>
