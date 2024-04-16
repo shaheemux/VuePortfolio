@@ -7,27 +7,50 @@
         <div class="card1" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">E-Commerce Website</h3>
           <button style="border-radius:4px;"><a href="https://capstone-project-c0944.web.app/" target="_blank">VIEW ONLINE</a></button>
+          <br>
+          <br>
+          <button style="border-radius:4px;"><a href="https://github.com/shaheemux/CapStone-Project" target="_blank">VIEW ON GITHUB</a></button>
         </div>
 
         <div class="card2" id="text">
           <h3 style="color: white; padding: 1rem;">Netflix Clone</h3>
           <button style="border-radius:4px ;"><a href="https://netflix-clone-mu-jade.vercel.app/" target="_blank">VIEW ONLINE</a></button>
+          <br>
+          <br>
+          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/Netflix-Clone-.git" target="_blank">VIEW ON GITHUB</a></button>
         </div>
+
+
         <div class="card3" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">Tailwind Css Project</h3>
           <button style="border-radius:4px ;"><a href="https://tailwind-project-pi.vercel.app/" target="_blank">VIEW ONLINE</a></button>
+          <br>
+          <br>
+          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/tailwind-project.git" target="_blank">VIEW ON GITHUB</a></button>
         </div>
+
         <div class="card4" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">My Portfolio with Html/Css</h3>
-          <button style="border-radius:4px ;"><a href="https://my-portfolio-swart-five-69.vercel.app/" target="_blank">VIEW ONLINE</a></button>
+           <div class="btne">
+            <button style="border-radius:4px ;"><a href="https://my-portfolio-swart-five-69.vercel.app/" target="_blank">VIEW ONLINE</a></button><br>
+            <br>
+            <button style="border-radius:4px;"><a href="https://github.com/shaheemux/My-Portfolio.git" target="_blank">VIEW ON GITHUB</a></button> 
+          </div> 
         </div>
         <div class="card5" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">Tekken Gallery</h3>
           <button style="border-radius:4px ;"><a href="https://tekken-8-gallary.vercel.app/" target="_blank">VIEW ONLINE</a></button>
+          <br>
+          <br>
+          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/tekken-8-gallary-.git" target="_blank">VIEW ON GITHUB</a></button>
         </div>
+
         <div class="card6" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">Minutes To Secods</h3>
-          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/minutes-to-seconds.git" target="_blank">VIEW ONLINE</a></button>
+          <button style="border-radius:4px ;"><a href="" target="_blank">VIEW ONLINE</a></button>
+          <br>
+          <br>
+          <button style="border-radius:4px ;"><a href="" target="_blank">VIEW ONLINE</a></button>
         </div>  
     </div>
 </div>
@@ -45,9 +68,12 @@
 
 .work{
   font-family: "Lilita One", sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 2rem;
-  color: black;
+  color: black !important;
+  /* border: 1px solid black; */
+  display: inline-block;
+  padding: 1rem;
 }
 
 h3 , a{
@@ -230,7 +256,7 @@ button, a:hover {
 
 @media (max-width: 1080px) {
   .content{
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns:  1fr 1fr;
     }
   }
 
@@ -242,7 +268,7 @@ button, a:hover {
 
 @media (max-width: 780px) {
   .content{
-      grid-template-columns: 1fr 1fr ;
+      grid-template-columns: 1fr ;
     }
   }
 @media (max-width: 500px) {
