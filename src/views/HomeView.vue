@@ -1,13 +1,8 @@
 <template>
   <main class="Moreinfo">
-    <div class="relative">
- <!-- This is the container that will be positioned relatively -->
- <div class="absolute inset-x-0 top-1/2 transform -translate-y-1/2 z-50 top-5">
-    <!-- This is the button that will be positioned absolutely -->
-    <button class="bg-yellow-500  hover:bg-yellow-700 text-white font-bold py-2 px-4"><a href="">Download Resume</a>
-    </button>
- </div>
-</div>
+     <div class="bg-blue-500 hover:bg-blue-700 text-white top-60 right-0 z-50 p-3 fixed ml-96 transforms">
+      <a href="" >Download Resume</a>
+     </div>
 
     <div class="heading">
 
@@ -103,7 +98,9 @@
  height: 100%;
  box-sizing: border-box;
 }
-
+.transforms {
+  transform: rotate(90deg) translate(0, -120%);
+}
 
 @keyframes lights {
 0% {
@@ -174,7 +171,7 @@ font-weight: 300;
 animation: lights 5s 750ms linear infinite;
 }
 
-.gridywrap , .relative{
+.gridywrap{
 animation: fadeInDownBigFromRight 1s ease-out;
 }
 
