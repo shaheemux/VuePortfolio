@@ -68,7 +68,7 @@
                 <p class="mb-4 text-lg leading-relaxed text-blueGray-700">
                   My name is Moeghamat Shaheem Salie . I am 25 years old and I was born and raised in Mitchells Plain Tafelsig . I Graduated high-school in 2018 . I am very passionate about the tech industry and love up-skillng myself within this field everyday . I am detail orientated with a "can do spirit". In my free time I always make sure to keep up with what is trending , video editing , graphic designing or just drawing . With zero coding experience I joined Life Choices academy coding Bootcamp and became very passionate about it started making life choices of my very own.
                 </p>
-                <a href="#pablo" class="font-normal text-pink-500">Show more</a>
+                <a href="#show-more" class="font-normal text-pink-500">Show more</a>
               </div>
             </div>
           </div>

@@ -39,6 +39,13 @@
     </li>
 </ul>
 <div class="credits"><a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm"></a></div>
+ 
+<div class="blank"></div>
+
+  <div class="experience">
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis blanditiis excepturi consequuntur assumenda, ab esse. Non doloremque impedit harum aspernatur dolor soluta numquam dignissimos quasi, deserunt ipsa ipsum. Atque, fuga!</p>
+  </div>
+
   </div>
 </template>
 
@@ -306,6 +313,8 @@ ul li .descr::before {
  }
 }
   
-
+.blank{
+  border-bottom: solid 1px black;
+}
 
 </style>

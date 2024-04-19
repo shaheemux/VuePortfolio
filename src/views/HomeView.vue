@@ -1,20 +1,17 @@
 <template>
   <main class="Moreinfo">
-     <div class="bg-blue-500 hover:bg-blue-700 text-white top-60 right-0 z-50 p-3 fixed ml-96 transforms">
-      <a href="" >Download Resume</a>
-     </div>
 
     <div class="heading">
 
 <div class="gridywrap">
 <div class="gridy-2 gridyhe-1">
-  <div class="gridimg" style="background-image: url(https://ununsplash.imgix.net/photo-1415302199888-384f752645d0?q=75&fm=jpg&s=823bdcc1b7ad955f5180efd352561016)">&nbsp;</div>
+  <div class="gridimg" style="background-image: url(https://i.postimg.cc/3NRrG4qZ/sitting-atop-mountain-peak-one-person-enjoys-sunset-relaxation-generated-by-ai-free-photo.jpg)">&nbsp;</div>
   
   <div class="gridinfo">
     <h3>About MYSELF</h3>
     <div class="gridmeta">
       <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
-      <p class="gridwho"><i class="fa fa-user"></i></p>
+      <!-- <p class="gridwho"><i class="fa fa-user"></i></p> -->
     </div>
     <p class="gridexerpt">Who am i ?</p>
     <router-link to="/about" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
@@ -27,7 +24,7 @@
     <h3>My work</h3>
     <div class="gridmeta">
       <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
-      <p class="gridwho"><i class="fa fa-user"></i></p>
+      <!-- <p class="gridwho"><i class="fa fa-user"></i></p> -->
     </div>
     <p class="gridexerpt">What i've done....</p>
     <router-link to="/projects" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
@@ -40,7 +37,7 @@
     <h3>Education & Experience</h3>
     <div class="gridmeta">
       <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
-      <p class="gridwho"><i class="fa fa-user"></i></p>
+      <!-- <p class="gridwho"><i class="fa fa-user"></i></p> -->
     </div>
     <p class="gridexerpt">What i've accomplished thus far...</p>
     <router-link to="/resume" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
@@ -53,38 +50,40 @@
     <h3>Testimonials</h3>
     <div class="gridmeta">
       <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
-      <p class="gridwho"><i class="fa fa-user"></i></p>
+      <!-- <p class="gridwho"><i class="fa fa-user"></i></p> -->
     </div>
     <p class="gridexerpt">What people have to say about me...</p>
     <router-link to="/testimonials" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
   </div>
 </div>
 <div class="gridy-1 gridyhe-1">
-  <div class="gridimg" style="background-image: url(https://ununsplash.imgix.net/photo-1418227165283-1595d13726cd?q=75&fm=jpg&s=cace1590a29be6d4d6db13c3ebd1ba72)">&nbsp;</div>
+  <div class="gridimg" style="background-image: url(https://i.postimg.cc/vZ8hVQ8Z/692621.jpg)">&nbsp;</div>
   <div class="gridinfo">
     <h3>Reach out to me</h3>
     <div class="gridmeta">
       <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
-      <p class="gridwho"><i class="fa fa-user"></i></p>
+      <!-- <p class="gridwho"><i class="fa fa-user"></i></p> -->
     </div>
     <p class="gridexerpt">Lets get in touch....</p>
     <router-link to="/contact" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></router-link>
   </div>
 </div>
+
+
 <div class="gridy-1 gridyhe-1">
-  <div class="gridimg" style="background-image: url(https://unsplash.imgix.net/uploads/1411589183965bdf6e141/5f468e98?q=75&fm=jpg&s=007333c388fb36767cbd152600bea6b8)">&nbsp;</div>
+  <div class="gridimg" style="background-image: url(https://i.postimg.cc/kgPwXxzK/istockphoto-1149054436-612x612.jpg)">&nbsp;</div>
   
   <div class="gridinfo">
     <h3>My Resume</h3>
     <div class="gridmeta">
       <p class="gridwhen"><i class="fa fa-clock-o"></i></p>
-      <p class="gridwho"><i class="fa fa-user"></i></p>
+      <!-- <p class="gridwho"><i class="fa fa-user"></i></p> -->
     </div>
     <p class="gridexerpt"></p>
     <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
   </div>
 </div>
-</div>
+     </div>
     </div>
   </main>    
 </template>

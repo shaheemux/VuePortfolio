@@ -143,4 +143,4 @@
 }
 
 </style>
-import { split } from 'core-js/fn/symbol';
+

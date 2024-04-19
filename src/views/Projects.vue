@@ -54,7 +54,8 @@
         </div>  
     </div>
 </div>
-    
+
+
   </div>
 </template>
 
@@ -143,7 +144,6 @@ button, a:hover {
 } 
 
 .card1{
-    border: solid 2px black;
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
@@ -153,15 +153,14 @@ button, a:hover {
     backdrop-filter: blur(5px);
 }
 .card1:hover{
-    box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
+    box-shadow: 5px 6px 15px 10px rgb(218, 218, 218);
     transition: 0.5s;
     transform: scale(1.05);
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background: linear-gradient(to top, #c5c6c6 0%, #b1b8bd 100%);
 
 }
 
 .card2{
-    border: solid 2px rgb(0, 0, 0);
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
