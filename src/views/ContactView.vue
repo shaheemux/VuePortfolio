@@ -48,6 +48,12 @@
                 <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com/shaheemux" target="_blank">Github</a>
               </li>
               <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="" target="_blank">067 810 3384</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="" target="_blank">Shaheemsalie@gmail.com</a>
+              </li>
+              <li>
                 <router-link to="/resume" class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Education &amp; Experience</router-link>
               </li>
             </ul>

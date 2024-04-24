@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Working with Shaheem has been an absolute pleasure. His reliability and dedication to his work are evident in every task they undertake. Shaheem approaches his responsibilities with a level of professionalism and commitment that is truly inspiring.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Working with Shaheem has been an absolute pleasure. His reliability and dedication to his work are evident in every task he undertake. Shaheem approaches his responsibilities with a level of professionalism and commitment that is truly inspiring.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div class="w-full">
-                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Shaheem has been a student of mine for the past 5 months and dempnstated hardwork and commitment to things that needed to be done . EXceptionally good with always compromising for himself to adapt to a environment and works well with others<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Shaheem was a student of mine for 6 months and demonstated hardwork and commitment to things that needed to be done . EXceptionally good with always compromising for others to adapt to a environment and works well with others<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                         </div>
                     </div>
                 </div>

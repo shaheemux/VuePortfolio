@@ -46,11 +46,11 @@
         </div>
 
         <div class="card6" id="text">
-          <h3 style="color: aliceblue; padding: 1rem;">Minutes To Secods</h3>
+          <h3 style="color: aliceblue; padding: 1rem;">E-commerce with React.js</h3>
           <button style="border-radius:4px ;"><a href="" target="_blank">VIEW ONLINE</a></button>
           <br>
           <br>
-          <button style="border-radius:4px ;"><a href="" target="_blank">VIEW ONLINE</a></button>
+          <button style="border-radius:4px ;"><a href="" target="_blank">VIEW ON GITHUB</a></button>
         </div>  
     </div>
 </div>
@@ -144,6 +144,7 @@ button, a:hover {
 } 
 
 .card1{
+    border: solid 1px black;
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
@@ -153,14 +154,14 @@ button, a:hover {
     backdrop-filter: blur(5px);
 }
 .card1:hover{
-    box-shadow: 5px 6px 15px 10px rgb(218, 218, 218);
+    box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);  
     transition: 0.5s;
     transform: scale(1.05);
-    background: linear-gradient(to top, #c5c6c6 0%, #b1b8bd 100%);
-
+    background: linear-gradient(to top, #585858 0%, #515252 100%);
 }
 
 .card2{
+    border: solid 1px black;
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
@@ -173,11 +174,11 @@ button, a:hover {
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background: linear-gradient(to top, #585858 0%, #515252 100%);
 }
 
 .card3{
-  border: solid 2px black;
+    border: solid 2px black;
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
@@ -189,11 +190,11 @@ button, a:hover {
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background: linear-gradient(to top, #585858 0%, #515252 100%);
 }
 
 .card4{
-  border: solid 2px black;
+  border: solid 1px black;
   height: 250px;
   width: 340px;
   transition: 0.5s ease-in-out;
@@ -206,11 +207,11 @@ button, a:hover {
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background: linear-gradient(to top, #585858 0%, #515252 100%);
 }
 
 .card5{
-  border: solid 2px black;
+    border: solid 1px black;
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
@@ -225,11 +226,11 @@ button, a:hover {
     transition: 0.5s;
     transform: scale(1.05);
     background: rgb(167, 179, 242);
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background: linear-gradient(to top, #585858 0%, #515252 100%);
 }
 
 .card6{
-  border: solid 2px black;
+    border: solid 1px black;
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
@@ -238,7 +239,7 @@ button, a:hover {
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);
     transition: 0.5s;
     transform: scale(1.05);
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background: linear-gradient(to top, #585858 0%, #515252 100%);
 }
 
 @media (max-width: 1330px){
