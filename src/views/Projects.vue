@@ -106,7 +106,7 @@ button, a:hover {
 }
 
 .aside{
-    background: rgb(218, 218, 218);
+    background: rgb(255, 242, 242);
     margin: 2rem 2rem;
     padding: 2rem;
     display: flex;
