@@ -46,11 +46,11 @@
         </div>
 
         <div class="card6" id="text">
-          <h3 style="color: aliceblue; padding: 1rem;">E-commerce with React.js</h3>
-          <button style="border-radius:4px ;"><a href="" target="_blank">VIEW ONLINE</a></button>
+          <h3 style="color: aliceblue; padding: 1rem;">Mobile Design</h3>
+          <button style="border-radius:4px ;"><a href="https://mobile-app-drab.vercel.app" target="_blank">VIEW ONLINE</a></button>
           <br>
           <br>
-          <button style="border-radius:4px ;"><a href="" target="_blank">VIEW ON GITHUB</a></button>
+          <button style="border-radius:4px ;"><a href="https://github.com/shaheemux/mobile-app.git" target="_blank">VIEW ON GITHUB</a></button>
         </div>  
     </div>
 </div>
@@ -106,6 +106,8 @@ button, a:hover {
 }
 
 .aside{
+    background: rgb(218, 218, 218);
+    margin: 2rem 2rem;
     padding: 2rem;
     display: flex;
     margin-TOP: 1rem;
@@ -234,6 +236,9 @@ button, a:hover {
     height: 250px;
     width: 340px;
     transition: 0.5s ease-in-out;
+    background-image: url(https://i.postimg.cc/brWgLpds/mobile-app-Mozilla-Firefox-2024-04-23-22-48-10.png);
+    background-position: center;
+    background-size: cover;
 }
 .card6:hover{
     box-shadow: 5px 6px 15px 10px rgb(11, 11, 11);

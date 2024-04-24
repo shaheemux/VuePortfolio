@@ -80,7 +80,7 @@
       <!-- <p class="gridwho"><i class="fa fa-user"></i></p> -->
     </div>
     <p class="gridexerpt"></p>
-    <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+    <a href="https://app.luminpdf.com/viewer/66282ac16338152bb077942b?credentials-id=dd11ff38-b9a2-48fe-bee9-97db9124ec48" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
   </div>
 </div>
      </div>

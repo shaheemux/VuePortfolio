@@ -85,14 +85,55 @@
      </footer>
     </section>
    </main>
+
+   <div class="blank"></div>
+ 
+   <section class="text-gray-600 body-font overflow-hidden" id="show-more">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="-my-8 divide-y-2 divide-gray-100">
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span class="font-semibold title-font text-gray-700">Cedar High School of Arts</span>
+          <span class="mt-1 text-gray-500 text-sm">2014-2018</span>
+        </div>
+        <div class="md:flex-grow">
+          <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">What i did on School ?</h2>
+          <p class="leading-relaxed">Being part of Cedar High became a eventful time in my life because i was able to upskill myself while being in school in visual art and design . I was also part of the Art Club on school and was responsible for many things including doing murals and drawings around the walls of the school . Thus leaing a legacy behind . </p>
+        </div>
+      </div>
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span class="font-semibold title-font text-gray-700">Atvance Academy</span>
+          <span class="mt-1 text-gray-500 text-sm">2020-2021</span>
+        </div>
+        <div class="md:flex-grow">
+          <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">What did i study ? </h2>
+          <p class="leading-relaxed">I attended a 12 month course aboout IT Technical Support . It focused more on hardware and troubleshooting , we got various practicals and it mainly revolve around assembling a computer and troubleshooting . I completed the 12 month course and recieved a certificate of completion .</p>
+        </div>
+      </div>
+      <div class="py-8 flex flex-wrap md:flex-nowrap">
+        <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span class="font-semibold title-font text-gray-700">Life Choices Academy</span>
+          <span class="text-sm text-gray-500">2023-2024</span>
+        </div>
+        <div class="md:flex-grow">
+          <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">What i did study ?</h2>
+          <p class="leading-relaxed">I was part of a coding academy and attended a 6 month programe where i would learning various programing languages such html , css and JavaScript . I got the opportunity to create websites from scratch . I completed the 6 month programe and got a certificate of completion . </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
   </div>
  </template>
  
 <style scoped>
   .about{
+    scroll-behavior: smooth !important;
     margin-top: 4.5rem;
   }
-
 
   /* cards */
 
@@ -113,6 +154,7 @@
     margin-left: 20em;
     animation: zoomIn 1s ease-in-out;
 }
+
 
 /* HTML CARD */
 

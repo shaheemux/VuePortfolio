@@ -28,5 +28,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
    overflow: hidden;
+   scroll-behavior: smooth;
 }
 </style>

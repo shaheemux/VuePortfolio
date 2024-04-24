@@ -42,10 +42,6 @@
  
 <div class="blank"></div>
 
-  <div class="experience">
-     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis blanditiis excepturi consequuntur assumenda, ab esse. Non doloremque impedit harum aspernatur dolor soluta numquam dignissimos quasi, deserunt ipsa ipsum. Atque, fuga!</p>
-  </div>
-
   </div>
 </template>
 
