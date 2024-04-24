@@ -85,12 +85,7 @@
      </footer>
     </section>
    </main>
-
- <div class="cards">
-    <div id="card"></div>
-    <div id="card"></div>
-    <div id="card"></div>
- </div>
+  
  
    <section class="text-gray-600 body-font overflow-hidden" id="show-more">
   <div class="container px-5 py-24 mx-auto">
@@ -480,6 +475,15 @@
         font-size: 0.625rem;
     }
 }
+ 
+@media (max-width: 400px) {
+ .text-lg {
+    font-size: 0.875rem; /* Adjusted size for very narrow screens */
+ }
 
+ .leading-relaxed {
+    line-height: 1.4; /* Adjusted line height for very narrow screens */
+ }
+}
 
 </style>
