@@ -1,8 +1,9 @@
 <template>
   <div class="projects">
     <h3 class="work" style="color: black; text-decoration: underline;">MY WORK</h3>
-    <div class="aside">
-    <div class="content">
+    <div class="break"></div>
+     <div class="aside">
+      <div class="content">
 
         <div class="card1" id="text">
           <h3 style="color: aliceblue; padding: 1rem;">E-Commerce Website</h3>
@@ -67,6 +68,11 @@
     font-family: JetBrains Mono, monospace;
 }
 
+.break{
+  border-top: solid 3px black;
+  margin: 2rem 5rem;
+}
+
 .work{
   font-family: "Lilita One", sans-serif;
   /* font-weight: 400; */
@@ -106,7 +112,6 @@ button, a:hover {
 }
 
 .aside{
-    background: rgb(255, 242, 242);
     padding: 2rem;
     display: flex;
     margin-TOP: 1rem;

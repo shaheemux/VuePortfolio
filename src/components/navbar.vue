@@ -15,10 +15,10 @@
       <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/resume">Education & Experience</router-link></li>
-        <li><router-link to="/projects">Projects</router-link></li>
+        <li><router-link to="/resume">What have i leanrt ?</router-link></li>
+        <li><router-link to="/projects">What i do ?</router-link></li>
         <li><router-link to="/testimonials">Reviews</router-link></li>
-        <li><router-link to="/contact">Contact</router-link></li>
+        <li><router-link to="/contact">Lets Chat ?</router-link></li>
         <li class="small"><a href="https://www.instagram.com/shaaheem_salie/">INSTAGRAM</a><a href="https://www.facebook.com/shaheem.salieii.9/" target="_blank">FACEBOOK</a></li>
       </ul>
     </div>
