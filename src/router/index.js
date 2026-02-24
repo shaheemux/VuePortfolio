@@ -27,11 +27,11 @@ const routes = [
     name: 'projects',
     component: () => import('../views/Projects.vue')
   },
-  {
-    path: '/testimonials',
-    name: 'testimonials',
-    component: () => import('../views/Testimonials.vue')
-  },
+  // {
+  //   path: '/testimonials',
+  //   name: 'testimonials',
+  //   component: () => import('../views/Testimonials.vue')
+  // },
   {
     path: '/contact',
     name: 'contact',
